@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:700);
+
+/*#featuredItems {
+	background-color: #0f0;
+	border: 1px solid #cc982b;
+	height: 200px;
+	margin: 0 0 0 0;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}*/
+#featureNewsBkgd {
+	background-image:url(/images/bg-spacestation.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-color: #E2E5EB;
+}
+#featuredItem {
+	width: 99%;
+	height: 447px;
+	/*border: medium dotted #F00; -- for testing */
+	margin: 0 auto;
+	
+	/*opacity: 0.3;
+    filter: alpha(opacity=30);  For IE8 and earlier */
+}
+.glidecontentwrapper {
+	position: relative; /* Do not change this value */
+	/* [disabled] */
+	width: 100%;
+	height: 385px; /* Set height to be able to contain height of largest content shown*/
+	overflow: hidden;
+	padding-top: 30px;
+}
+/*
+	Total wrapper width: 350px+5px+5px=360px
+	Or width of wrapper div itself plus any left and right CSS border and padding
+	Adjust related containers below according to comments
+*/
+
+.glidecontent { /*style for each glide content DIV within wrapper.*/
+	position: absolute; /* Do not change this value */
+	background: #fff;
+	padding: 20px;
+	visibility: hidden;
+	width: 90%;
+	height: 100%;
+	/*margin-top: 30px;*/
+	margin-right: 15px;
+	margin-bottom: 0;
+	margin-left: 40px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+}
+/* Total glidecontent width: 330px+10px+10px=350px
+	Or width of wrapper div itself (not counting wrapper border/padding) */
+.glidecontent h3 {
+	display: block;
+	padding: 5px 0 5px 5px;
+	color:#4b5f80;
+	font-weight:bold;
+}
+.glidecontent h4 {
+	padding: 0 0 5px 355px;
+	font-size: 1.5em;
+	color: #495c7c;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+}
+.glidecontent p {
+	padding-left: 355px;
+	padding-right: 40px;
+	line-height: 1.7em;
+	font-size: 1.0em;
+}
+#glidertoggle_RM {
+	position: absolute; /* RM */
+	left: 600px;
+	top: 300px;
+	z-index:10000;
+	width: 40%;
+}
+.glidecontenttoggler { /*style for DIV used to contain toggler links. */
+	/* [disabled]width: 450px; */
+	margin-top: 1px;
+	margin-bottom: 6px;
+	margin-right: 50px;
+	text-align: right;	/*How to align pagination links: "left", "center", or "right" background: white; 
+	always declare an explicit background color for fade effect to properly render in IE*/
+}
+/* Total contenttoggler width: 350px+5px+5px=360px
+	Or total width of wrapper div (counting wrapper border/padding) */
+
+.glidecontenttoggler a { /*style for every navigational link within toggler */
+	display: -moz-inline-box;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 6px 10px;
+	margin-right: 2px;
+	text-decoration: none;
+	font: 16px Arial, Helvetica, sans-serif;
+	color: #111;
+	background-color: #ddd;
+}
+.glidecontenttoggler a.selected { /*style for selected page's toggler link. ".selected" class auto generated! */
+	background: #cc0000;
+	color: #fff;
+}
+.glidecontenttoggler a:hover {
+	background: #E4EFFA;
+	color: black;
+}
+.glidecontenttoggler a.toc { /*style for individual toggler links (page 1, page 2, etc). ".toc" class auto generated! */
+}
+.glidecontenttoggler a.prev, .glidecontenttoggler a.next { /*style for "prev" and "next" toggler links. ".prev" and ".next" classes auto generated! */
+}
+.glidecontenttoggler a.prev:hover, .glidecontenttoggler a.next:hover {
+	background: #cc0000;
+	color: white;
+}
+
+#glidertoggle_RM .viewAll {
+	/*margin-top:10px;
+	margin-right: 12px;*/
+}
+#glidertoggle_RM .viewAll a:link {
+	font-size:16px;
+	/*padding-bottom:10px;
+	font-weight: bold;*/
+	color: #000;
+}
+#glidertoggle_RM .viewAll a:visited {
+	color: #fff;
+}
+#glidertoggle_RM .viewAll a:hover {
+	color: #fff;
+	background-color:#69F;
+}
+#glidertoggle_RM .rounded-corners { /*not working in IE*/
+	background: #ddd;
+	padding: 6px 10px;
+	border: 1px solid black;
+	margin-left: 2px;
+}
+
+@media screen and (max-width:768px){
+#featuredItems {
+	background-color: #0f0;
+	border: 1px solid #cc982b;
+	height: 600px;
+	margin-bottom: 0 0 10px 0;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+#featureNewsBkgd {
+	background-image:none;
+	background-color: #E2E5EB;
+}
+#featuredItem {
+	width: 100%;
+	height: 600px;
+	/*border: medium dotted #F00; -- for testing */
+	margin: 0 auto;
+}
+.glidecontentwrapper {
+	position: relative; /* Do not change this value */
+	/* [disabled] */
+	width: 100%;
+	height: 550px; /* Set height to be able to contain height of largest content shown*/
+	overflow: hidden;
+	padding-top: 30px;
+}
+.glidecontent { /*style for each glide content DIV within wrapper.*/
+	position: absolute; /* Do not change this value */
+	background: #fff;
+	padding: 5px;
+	visibility: hidden;
+	width: 90%;
+	height: 100%;
+	/*margin-top: 30px;*/
+	margin-right: 15px;
+	margin-bottom: 0;
+	margin-left: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+}
+.glidecontent img { /*style for each glide content DIV within wrapper.
+	width: 30%;
+	height: auto;*/
+	margin-left: -10000px;
+}
+.glidecontent h4 {
+	padding: 0 0 5px 5px;
+	font-size: 1em;
+	line-height: 1.25em;
+	font-weight: bold;
+}
+.glidecontent p {
+	padding-left: 5px;
+	padding-right: 10px;
+	line-height: 1.5em;
+	font-size: 1em;
+}
+#glidertoggle_RM {
+	position: absolute; /* RM */
+	left: 10px;
+	top: 450px;
+	z-index:10000;
+	width: 90%;
+}
+}

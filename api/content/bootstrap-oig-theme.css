@@ -1,0 +1,23 @@
+﻿
+.navbar {
+    background-color: #445777 !important;
+}
+.navbar-text, .navbar-brand, .nav-link {
+    color: lightgray;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: white !important;
+}
+
+.card-header {
+    background-color: #fcd380 !important;
+}
+
+.btn-default {
+    background-color: lightgray;
+    color: dimgray;
+}
+.btn-default:hover {
+    background-color: silver;
+    color: black;
+}

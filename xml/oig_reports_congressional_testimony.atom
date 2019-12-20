@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <updated>2018-06-14T12:00:00Z</updated>
+    <title>NASA OIG - Congressional Testimony</title>
+    <link href="https://oig.nasa.gov" />
+    <link rel="self" href="https://oig.nasa.gov/xml/oig_reports_congressional_testimony.atom" />
+    <author><name>NASA Office of Inspector General</name></author>
+    <id>https://oig.nasa.gov/xml/oig_reports_congressional_testimony.atom</id>
+
+        <entry>
+            <id>https://oig.nasa.gov/docs/CT-18-002.pdf</id>
+            <updated>2018-06-14T12:00:00Z</updated>
+            <title>NASA OIG Testifies before Congress</title>
+            <summary>NASA Inspector General Paul Martin testifies before the U.S. House of Representatives Subcommittee on Space regarding NASA&#39;s challenges in meeting project cost, schedule, and performance goals.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/CT-18-002.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/CT-18-002.pdf" type="application/pdf" length="940734" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/CT-18-001.pdf</id>
+            <updated>2018-05-16T12:00:00Z</updated>
+            <title>NASA OIG Testifies before Congress</title>
+            <summary>Inspector General Paul Martin testifies before the Senate Subcommittee on Space, Science,  and Competitiveness regarding the future of the International Space Station.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/CT-18-001.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/CT-18-001.pdf" type="application/pdf" length="243206" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IGTestimony07102015.pdf</id>
+            <updated>2015-07-10T12:00:00Z</updated>
+            <title>NASA OIG Testifies before Congress</title>
+            <summary>Inspector General Paul Martin testifies before the U.S. House of Representatives Subcommittee on Space regarding the operational challenges facing the International Space Station.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IGTestimony07102015.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IGTestimony07102015.pdf" type="application/pdf" length="550827" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IGTestimony04162015.pdf</id>
+            <updated>2015-04-16T12:00:00Z</updated>
+            <title>NASA&#39;s FY 2016 Budget Request</title>
+            <summary>IG Paul Martin Submits Written Testimony to the U.S. Senate Subcommittee on Commerce, Justice and Science, and Related Agencies regarding NASA&#39;s FY 2016 Budget Request.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IGTestimony04162015.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IGTestimony04162015.pdf" type="application/pdf" length="671620" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IGTestimony02252015.pdf</id>
+            <updated>2015-02-25T12:00:00Z</updated>
+            <title>NASA OIG Testifies before Congress</title>
+            <summary>Inspector General Paul Martin testifies before the House Appropriations Committee about the Top Management and Performance Challenges facing NASA.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IGTestimony02252015.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IGTestimony02252015.pdf" type="application/pdf" length="668355" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/GRobinson062014.pdf</id>
+            <updated>2014-06-20T12:00:00Z</updated>
+            <title>NASA&#39;s Efforts to Secure its Information and Facilities</title>
+            <summary>Deputy Inspector General Gail Robinson testifies before the U.S. House of Representatives Subcommittees on Space and Oversight regarding NASA&#39;s management of foreign national access to its information and facilities and other related security issues.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/GRobinson062014.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/GRobinson062014.pdf" type="application/pdf" length="361945" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/NASAIGMARTIN_05_01_14.pdf</id>
+            <updated>2014-05-01T12:00:00Z</updated>
+            <title>NASA&#39;s FY 2015 Budget Request</title>
+            <summary>IG Paul Martin submits testimony to the U.S. Senate Subcommittee on Commerce, Justice and Science, and Related Agencies regarding NASA&#39;s fiscal year 2015 budget request.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/NASAIGMARTIN_05_01_14.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/NASAIGMARTIN_05_01_14.pdf" type="application/pdf" length="358211" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/NASAIGMartin_09_20_2013.pdf</id>
+            <updated>2013-09-20T12:00:00Z</updated>
+            <title>NASA&#39;s Aging Infrastructure</title>
+            <summary>Inspector General Paul Martin testifies before the U.S. House of Representatives Subcommittee on Space regarding NASA&#39;s aging infrastructure and antiquated facilities               </summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/NASAIGMartin_09_20_2013.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/NASAIGMartin_09_20_2013.pdf" type="application/pdf" length="349201" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/FinalWrittenStatement_03_13_2013.pdf</id>
+            <updated>2013-03-13T12:00:00Z</updated>
+            <title>NASA IG Testifies before Congress</title>
+            <summary>Inspector General Martin testified before the U.S. House of Representatives Committee on Appropriations about the major challenges facing NASA.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/FinalWrittenStatement_03_13_2013.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/FinalWrittenStatement_03_13_2013.pdf" type="application/pdf" length="348171" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/HouseHearing_02_28_2013.pdf</id>
+            <updated>2013-02-28T12:00:00Z</updated>
+            <title>NASA OIG Testifies before Congress</title>
+            <summary>Inspector General Paul Martin testified before the U.S. House of Representatives Committee on Science, Space, and Technology, Subcommittee on Oversight.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/HouseHearing_02_28_2013.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/HouseHearing_02_28_2013.pdf" type="application/pdf" length="425791" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/FINAL_written_statement_for_ IT_ hearing_February_26_edit_v2.pdf</id>
+            <updated>2012-02-29T12:00:00Z</updated>
+            <title>NASA&#39;s IT Security Efforts</title>
+            <summary>NASA Inspector General Paul K. Martin testified before the House of Representatives Committee on Science, Space, and Technology&#39;s Subcommittee on Investigations and Oversight concerning challenges facing NASA in protecting the Agency&#39;s information and computer networks against cyber attacks.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/FINAL_written_statement_for_ IT_ hearing_February_26_edit_v2.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/FINAL_written_statement_for_ IT_ hearing_February_26_edit_v2.pdf" type="application/pdf" length="129794" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/Stimulus_Oversight-November_2011.pdf</id>
+            <updated>2011-11-30T12:00:00Z</updated>
+            <title>Stimulus Oversight: An Update on Science Funding Accountability and Transparency</title>
+            <summary>U.S. House of Representatives, Committee on Science, Space and Technology, Subcommittee on Investigations and Oversight                 </summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/Stimulus_Oversight-November_2011.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/Stimulus_Oversight-November_2011.pdf" type="application/pdf" length="124996" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG_Statement_NASAs_CCDev_Program_10_26_2011.pdf</id>
+            <updated>2011-10-26T12:00:00Z</updated>
+            <title>NASA&#39;s Commercial Crew Development Program</title>
+            <summary>U.S. House of Representatives, Committee on Science, Space, and Technology                 </summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG_Statement_NASAs_CCDev_Program_10_26_2011.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG_Statement_NASAs_CCDev_Program_10_26_2011.pdf" type="application/pdf" length="110349" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/NASA2011MajorChallenges.pdf</id>
+            <updated>2011-02-10T12:00:00Z</updated>
+            <title>Major Challenges Facing NASA in 2011</title>
+            <summary>U.S. House of Representatives, Committee on Appropriations, Subcommittee on Commerce, Justice, Science, and Related Agencies                 </summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/NASA2011MajorChallenges.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/NASA2011MajorChallenges.pdf" type="application/pdf" length="71971" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/NASA_OIG_written_statement_for_Feb3_hearing.pdf</id>
+            <updated>2010-02-03T12:00:00Z</updated>
+            <title>Key Issues and Challenges Facing NASA</title>
+            <summary>U.S. House of Representatives, Committee on Science and Technology, Subcommittee on Space and Aeronautics             </summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/NASA_OIG_written_statement_for_Feb3_hearing.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/NASA_OIG_written_statement_for_Feb3_hearing.pdf" type="application/pdf" length="132822" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/Testimony12-1-09.pdf</id>
+            <updated>2009-12-03T12:00:00Z</updated>
+            <title>Independent Audit of the National Aeronautics and Space Administration</title>
+            <summary>U.S. House of Representatives, Committee on Science and Technology, Subcommittees on Investigations and Oversight and Space and Aeronautics             </summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/Testimony12-1-09.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/Testimony12-1-09.pdf" type="application/pdf" length="77895" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/SBIR_Testimony.pdf</id>
+            <updated>2009-08-06T12:00:00Z</updated>
+            <title>National Aeronautics and Space Administration’s Small Business Innovation Research Program</title>
+            <summary>U.S Senate Committee on Commerce, Science, and Transportation </summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/SBIR_Testimony.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/SBIR_Testimony.pdf" type="application/pdf" length="57187" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/Statement060707.pdf</id>
+            <updated>2007-06-07T12:00:00Z</updated>
+            <title>Investigations and Oversight Exhibits</title>
+            <summary>U.S. Senate, Committee on Commerce, Subcommittee on Space, Aeronautics, and Related Sciences, and U.S. Representatives, Committee on Science and Technology, Subcommittee on Investigations and Oversight</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/Statement060707.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/Statement060707.pdf" type="application/pdf" length="60117" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IGTestimony102705.pdf</id>
+            <updated>2005-10-27T12:00:00Z</updated>
+            <title>Financial Management at NASA: Challenges and Next Steps</title>
+            <summary>U.S. House of Representatives, Committee on Science, Subcommittee on Space and Aeronautics, and Committee on Government Reform, Subcommittee on Government Management, Finance and Accountability</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IGTestimony102705.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IGTestimony102705.pdf" type="application/pdf" length="118431" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/Testimony051904.pdf</id>
+            <updated>2004-05-19T12:00:00Z</updated>
+            <title>NASA Financial Management</title>
+            <summary>U.S. House of Representatives, Committee on Government Reform, Subcommittee on Government Efficiency and Financial Management</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/Testimony051904.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/Testimony051904.pdf" type="application/pdf" length="115431" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/testimony062403.pdf</id>
+            <updated>2003-06-24T12:00:00Z</updated>
+            <title>Cyber Security:  The Status of Information Security and the Effects of the Federal Information Security Management Act (FISMA) at NASA</title>
+            <summary> U.S. House of Representatives, Committee on Government Reform, Subcommittee on Technology, Information Policy, Intergovernmental Relations and the Census</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/testimony062403.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/testimony062403.pdf" type="application/pdf" length="297395" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/ALTestimony032002.pdf</id>
+            <updated>2002-03-20T12:00:00Z</updated>
+            <title>NASA Financial Management Issues</title>
+            <summary>U.S. House of Representatives, Committee on Government Reform, Subcommittee on Government Efficiency, Financial Management, and Intergovernmental Relations</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/ALTestimony032002.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/ALTestimony032002.pdf" type="application/pdf" length="123213" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/testimony091201.pdf</id>
+            <updated>2001-09-12T12:00:00Z</updated>
+            <title>How Safe Is Our Critical Infrastructure?</title>
+            <summary> U.S. Senate, Committee on Governmental Affairs</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/testimony091201.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/testimony091201.pdf" type="application/pdf" length="140721" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/testimony040401.pdf</id>
+            <updated>2001-04-04T12:00:00Z</updated>
+            <title>NASA’s Management of the International Space Station Program</title>
+            <summary>U.S. House of Representatives, Committee on Science</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/testimony040401.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/testimony040401.pdf" type="application/pdf" length="341008" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/Testimony031501.pdf</id>
+            <updated>2001-03-15T12:00:00Z</updated>
+            <title>Key Management Issues at NASA</title>
+            <summary>U.S. House of Representatives, Committee on Government Reform, Subcommittee on National Security, Veterans Affairs, and International Relations</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/Testimony031501.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/Testimony031501.pdf" type="application/pdf" length="108340" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/Testimony050200.pdf</id>
+            <updated>2000-05-02T12:00:00Z</updated>
+            <title>Federal Employee Recruitment and Retention Incentives</title>
+            <summary>U.S. Senate, Committee on Governmental Affairs, Subcommittee on Oversight of Government Management, Restructuring and the District of Columbia</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/Testimony050200.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/Testimony050200.pdf" type="application/pdf" length="54041" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/Testimony031500.pdf</id>
+            <updated>2000-03-16T12:00:00Z</updated>
+            <title>FY 2001 Budget Request for Human Space Flight</title>
+            <summary>U.S. House of Representatives, Committee on Science, Subcommittee on Space and Aeronautics</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/Testimony031500.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/Testimony031500.pdf" type="application/pdf" length="202939" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/Testimony030200.pdf</id>
+            <updated>2000-03-02T12:00:00Z</updated>
+            <title>S. 1993, the Government Information Security Act of 1999</title>
+            <summary>U.S. Senate, Committee on Governmental Affairs</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/Testimony030200.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/Testimony030200.pdf" type="application/pdf" length="180728" title="Congressional Testimony" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/testimony1.pdf</id>
+            <updated>1999-04-29T12:00:00Z</updated>
+            <title>FY 2000 NASA Budget Request</title>
+            <summary>U.S. Senate, Committee on Commerce, Science and Transportation, Subcommittee on Science, Technology, and Space</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/testimony1.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/testimony1.pdf" type="application/pdf" length="60864" title="Congressional Testimony" />
+        </entry>
+</feed>

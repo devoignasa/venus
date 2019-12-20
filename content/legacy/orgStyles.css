@@ -1,0 +1,511 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#skipNav {
+	margin-left: -1000px;
+	position: absolute;
+}
+p, ul, li, h1, h2, h3, h4, h5 {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+blockquote, table {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.bioImages {
+	margin-right:15px;
+	padding: 5px;
+	border: thin solid #666;
+}
+a:link {
+	color:#00f;
+	text-decoration: none;
+}
+a:visited {
+	color:#00f;
+	text-decoration: none;
+}
+a:hover {
+	color:#666;
+	text-decoration: underline;
+}
+#topEdge {
+	background: #333 url(../images/home_topEdge.gif) repeat-x;
+	height: 46px;
+}
+#oigNasaHome {
+	display: block;
+	float: left;
+	margin-left: 43px;
+	margin-top: 12px;
+	color: #FFF;
+	font: 14px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+#oigNasaHome:hover {
+	text-decoration: underline;
+}
+#visitNasa {
+	display: block;
+	margin-right: 43px;
+	float: right;
+	margin-top: 4px;
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+}
+#visitNasa a:link {
+	color: #FFF;
+}
+#visitNasa a:visited {
+	color: #FFF;
+}
+#visitNasa a:hover {
+	text-decoration: underline;
+}
+#topBanner {
+	background: #193a5b;
+	height: 83px;
+}
+#topBanner h1 {
+	color: #FFF;
+	font: 30px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	letter-spacing: 0.3em;
+	margin-left: 190px;
+	padding-top: 20px;
+	display: block;
+	width: 800px;
+}
+#nasaOigSeal {
+	margin-left: 15px;
+	margin-top: -70px;
+}
+#oigHotline {
+	margin-left: 13px;
+	display: block;
+	border-style: none;
+}
+#fraud {
+	color:#9a9a9a;
+	font: 12px Arial, Helvetica, sans-serif;
+	margin-left: 26px;
+}
+#leftContent {
+	width: 200px;
+	float: left;
+	position: relative;
+	z-index: 999;
+}
+#hotlineSearchBkgd {
+	background: #E6E6E6 url(../images/global_leftnav_hotlineSearch.gif) repeat-x;
+	height: 250px;
+	width: 200px;
+	display: block;
+}
+#leftNav {
+	background: #e6e6e6;
+	width: 200px;
+}
+#rightContent {
+	width: 700px;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+#content {
+	/*min-width: 0;*/
+}
+/* ===================== */
+/* ===== Search Box ==== */
+
+#search {
+	height: 72px;
+	width: 171px;
+	margin-left: 13px;
+	margin-top: 10px;
+}
+#searchTopCorners {
+	height: 4px;
+	width: 171px;
+	background: url(../images/global_search_topCorners.png) no-repeat top;
+}
+#searchBackgrnd {
+	height: 64px;
+	width: 169px;
+	background: #114fad;
+	border-right: 1px solid #193a5b;
+	border-left: 1px solid #193a5b;
+}
+#searchBottomCorners {
+	height: 4px;
+	width: 171px;
+	background: url(../images/global_search_bottomCorners.png) no-repeat bottom;
+}
+#searchForm {
+	text-align: center;
+	padding-top: 7px;
+}
+#searchForm form {  /* added for IE7 to get rid of extra space around form */
+	margin: 0;
+}
+#searchfield {
+	height: 20px;
+	width: 150px;
+	background: #cad9e4;
+	border: 1px solid #cad9e4;
+	font: 16px Arial, Helvetica, sans-serif;
+}
+#searchButton {
+	background: url(../images/global_searchButton_backgrnd_off.png) no-repeat;
+	height: 23px;
+	width: 58px;
+	font: bold 10px Arial, Helvetica, sans-serif;
+	float: left;
+	margin-left: 9px;
+}
+#searchButton a:link {
+	color:#000;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding-top: 5px;
+}
+#searchButton a:visited {
+	color:#000;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding-top: 5px;
+}
+#searchButton a:hover {
+	color:#00F;
+	text-decoration: underline;
+	text-align: center;
+	display: block;
+	padding-top: 5px;
+}
+#advanceSearch {
+	padding-top: 7px;
+	float: right;
+	padding-right: 9px;
+}
+#advanceSearch a:link {
+	font: bold 10px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+}
+#advanceSearch a:visited {
+	font: bold 10px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+}
+#advanceSearch a:hover {
+	font: bold 10px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	text-decoration: underline;
+}
+/* END Search Box */
+
+/* ===== Main Content ==== */
+
+#welcome {
+	width: 740px;
+}
+#welcome h2 {
+	color:#666;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+#welcome p {
+	margin-bottom: 20px;
+	font-size: 16px;
+	color:#999;
+}
+#rightContent ul {
+	margin-left:20px;
+}
+#rightContent li {
+	margin:10px;
+}
+#rightContent p {
+	margin: 10px 0 10px 0;
+}
+#rightContent h3 {
+	margin: 20px 0 10px 0;
+	color:#193A5A;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#rightContent h4 {
+	margin: 20px 0 10px 0;
+	color:#193A5A;
+	font-size: 16px;
+}
+#currentActivity {
+	font-family: Arial, Helvetica, sans-serif;
+	border: 2px solid #ccc;
+}
+#currentActivity th {
+	font-size:12px;
+	border: 2px solid #ccc;
+}
+#currentActivity td {
+	border: 2px solid #ccc;
+}
+#topOfPage {
+	text-align: right;
+	background: #CCC;
+	font-size: 12px;
+	padding: 5px;	
+}
+ /*  Sliding Panels on Homepage */
+/*#panelwidget {
+	clear: both;
+}*/
+#newsTabHeader {
+	float:left;
+	background: url(../images/slidingPanel_newsTabHeaader.gif) no-repeat;
+	height: 24px;
+	width: 129px;
+	margin-right: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	padding-top: 6px;
+}
+#slidingPanelsText {
+	padding: 0px;
+	width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+#slidingPanelsText a:link {
+	color:#15395B;
+	text-decoration:none;
+}
+#slidingPanelsText a:visited {
+	color:#15395B;
+	text-decoration:none;
+}
+#slidingPanelsText a:hover {
+	color:#000;
+	text-decoration:underline;
+}
+.SlidingPanelsContent p {
+	font-size: 14px;
+	margin-bottom: 10px;
+	width: 600px;
+}
+#singlePanelButton {
+	background: url(../images/slidingPanelButton_active.gif) no-repeat;
+	height: 24px;
+	width: 39px;
+	display: block;
+	color:#fff;
+	text-align: center;
+	float: left;
+	text-decoration: none;
+	padding-top: 6px;
+	margin-right: 1px;
+	font: bold 14px Arial, Helvetica, sans-serif;
+}
+#singlePanelButton:hover {
+	background: url(../images/slidingPanelButton_hover.gif) no-repeat;
+	height: 24px;
+	width: 39px;
+	display: block;
+	color:#fff;
+	text-align: center;
+	float: left;
+	text-decoration: underline;
+	padding-top: 6px;
+	margin-right: 1px;
+	font: bold 14px Arial, Helvetica, sans-serif;
+}
+.SlidingPanelsContentGroup {
+	min-height:0;
+}
+/* END Right Content and panel boxes */
+
+
+/* ===================== */
+/* ===== Footer Content ==== */
+
+#footer {
+	width: 1020px;
+	border-top: 1px solid #CCC;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 10px;
+	margin-bottom:50px;
+}
+#footer ul li {
+	list-style-type: none;	
+}
+#footer #usaGov {
+	width: 150px;
+	float: left;
+}
+#footer #council {
+	width: 230px;
+	float: left;
+	margin-right:20px;
+}
+#footer #nasaLink {
+	width: 220px;
+	float: left;
+	margin-right:20px;
+}
+#footer #oigLinks {
+	width: 200px;
+	float: left;
+	margin-right:20px;
+}
+#footer a:link {
+	color: #aaa;
+	text-decoration: none;
+}
+#footer a:visited {
+	color: #aaa;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+#dateStamps {
+	color:#ccc;
+}
+
+/* ===================== */
+/* ===== Audit Reports Dates and Table ==== */
+
+#auditReport p {
+	background: #eee;
+	padding: 10px;
+	font-size: 14px;	
+}
+#auditReport table {
+	font-size: 12px;	
+}
+
+/* ===================== */
+/* ===== Cyberhotline | Contractor Disclosure Links ==== */
+
+#cyberhotlineDisclosure {
+	padding: 5px 10px;
+	background: #CCC;
+	text-align: right;	
+}
+
+#cyberhotline {
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+/* ===================== */
+/* ===== RECOVERY Website Link ==== */
+
+#recovery {
+	padding: 10px 20px 10px 0px;
+	background: #CCC;
+	width: 170px;
+	float: right;
+	text-align: right;
+	font-size: 9px;
+}
+
+/* ===================== */
+/* ===== FOIA Form ==== */
+
+#foia {
+	padding: 10px 0px 20px 20px;
+	background: #ddd;
+	margin-bottom: 10px;
+}
+#foia em {
+	font-size:12px;
+}
+#foia .form_number {
+	background-color:#666;
+	padding:5px 10px;
+	margin-right:10px;
+	color:#ddd;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	font: 16px Verdana, Geneva, sans-serif;
+	width: 10px;
+	float: left;
+	margin-top: 5px;
+}
+#foia .form_content {
+	margin: 0px 40px;
+}
+#foia #mediaSub {
+	padding: 5px 5px 5px 15px;
+	background: #CCC;
+	margin: 10px 25px 25px 50px;
+}
+#foia .radioButtonAlignment {
+	float: left;
+	display: block;
+	height: 20px;
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+	top: 0px;
+}
+#testimonyBullets ul li {
+	margin:2px;
+}
+
+
+/* ===================== */
+/* ===== Org Chart Styles ==== */
+#orgCharts {
+	margin:10px auto;
+	text-align:center;
+}
+#orgBanner {
+	background: #193a5b;
+	height: 83px;
+}
+#orgBanner h1 {
+	color: #FFF;
+	font: 30px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	letter-spacing: 0.2em;
+	text-align: center;
+	margin: 0px auto;
+	padding-top: 20px;
+	display: block;
+	width: 650px;
+}
+#orgBio{
+	margin: 20px;
+	width: 900px;
+}
+#orgBio #content p {
+	margin: 10px 0;
+}
+#orgClose {
+	float:right;
+	margin:5px;
+}
+#orgClose a:link {
+	color:#bbb;
+}
+#orgClose a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+#orgClose img {
+	border:0;
+	vertical-align: middle;
+}
+#orgBio #content ul {
+	margin-left:20px;
+}

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login</title>
+    <link rel="shortcut icon" href="/favicon.ico?" type="image/vnd.microsoft.icon" />
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-auth.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+    <script src="content/firebaseConfig.js"></script>
+</head>
+<body>
+    <noscript>
+        <div class="alert alert-info">
+            JavaScript disabled. This website may not function correctly with your current browser settings.
+        </div>
+    </noscript>
+
+    <div id="firebaseui-auth-container"></div>
+
+    <script>
+
+        if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
+
+        firebase.auth().setPersistence(firebase.auth.Auth.Persistence.SESSION);   // .NONE, .SESSION, .LOCAL
+
+        new firebaseui.auth.AuthUI(
+            firebase.auth()).start('#firebaseui-auth-container', {
+                signInFlow: 'popup',
+                signInOptions: [{
+                    provider: firebase.auth.EmailAuthProvider.PROVIDER_ID
+                }],
+                callbacks: {
+                    signInSuccessWithAuthResult: function (authResult, redirectUrl) {
+                        location.replace(redirectUrl || '/');
+                        return false;
+                    }
+                }
+        });
+
+    </script>
+</body>
+</html>

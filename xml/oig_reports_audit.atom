@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en" >
+        <updated>2019-05-07T12:00:00Z</updated>
+        <title>NASA OIG - Audit Reports</title>
+        <link href="https://oig.nasa.gov" />
+        <link rel="self" href="https://oig.nasa.gov/xml/oig_reports_audit.atom" />
+        <author><name>NASA Office of Inspector General</name></author>
+        <id>https://oig.nasa.gov/xml/oig_reports_audit.atom</id>
+
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-19-018.pdf</id>
+            <updated>2019-05-07T12:00:00Z</updated>
+            <title>NASA&#39;s Heliophysics Portfolio</title>
+            <summary>The Office of Inspector General examined NASA&#39;s management of its Heliophysics Portfolio and its efforts to maintain the Agency&#39;s heliophysics science capabilities.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-19-018.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-19-018.pdf" type="application/pdf" length="3148223" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-19-017.pdf</id>
+            <updated>2019-04-25T12:00:00Z</updated>
+            <title>Final Memorandum, Ames Research Center Protective Services Contract</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-19-017.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-19-017.pdf" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-19-016.pdf</id>
+            <updated>2019-04-15T12:00:00Z</updated>
+            <title>NASA&#39;s Technology Transfer Process</title>
+            <summary>The Office of Inspector General conducted a follow-up audit evaluating NASA&#39;s process for transferring Agency-developed technology to the commercial sector.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-19-016.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-19-016.pdf" type="application/pdf" length="3586582" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-19-015.pdf</id>
+            <updated>2019-03-28T12:00:00Z</updated>
+            <title>Final Memorandum, NASA&#39;s Strategic Assessment Contract</title>
+            <summary>The overall objective of this audit will be to assess whether NASA is appropriately managing the Strategic Assessment Contract at Johnson Space Center to accomplish its intended objectives relative to cost, schedule, and scope.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-19-015.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-19-015.pdf" type="application/pdf" length="1471724" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-19-014.pdf</id>
+            <updated>2019-03-26T12:00:00Z</updated>
+            <title>NASA&#39;s Engineering and Technical Services Contracts</title>
+            <summary>The Office of Inspector General examined NASA&#39;s process for acquiring its engineering and technical services  contracts.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-19-014.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-19-014.pdf" type="application/pdf" length="1612390" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-19-013.pdf</id>
+            <updated>2019-03-19T12:00:00Z</updated>
+            <title>NASA&#39;s Progress with Environmental Remediation Activities at the Santa Susana Field Laboratory</title>
+            <summary>The Office of Inspector General examined the status of NASA&#39;s environmental remediation activities at SSFL and assessed the extent to which the Agency is conducting these efforts in a cost-effective manner.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-19-013.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-19-013.pdf" type="application/pdf" length="9530201" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-19-012.pdf</id>
+            <updated>2019-03-07T12:00:00Z</updated>
+            <title>NASA&#39;s Compliance with Federal Export Control Laws</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-19-012.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-19-012.pdf" type="application/pdf" length="990403" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/ML-19-002.pdf</id>
+            <updated>2019-03-06T12:00:00Z</updated>
+            <title>Review of NASA&#39;s Information Security Program under the Federal Information Security Modernization for Fiscal Year 2018 Evaluation</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/ML-19-002.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/ML-19-002.pdf" type="application/pdf" length="649725" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-19-011.pdf</id>
+            <updated>2019-03-06T12:00:00Z</updated>
+            <title>Audit of SETI Institute</title>
+            <summary>The Office of Inspector General examined the SETI Institute&#39;s use of NASA funds to support the Agency&#39;s science goals.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-19-011.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-19-011.pdf" type="application/pdf" length="3173969" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-19-007.pdf</id>
+            <updated>2018-11-28T12:00:00Z</updated>
+            <title>Final Memorandum, NASA&#39;s Management of Extended Temporary Duty Travel</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-19-007.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-19-007.pdf" type="application/pdf" length="3116829" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-19-004.pdf</id>
+            <updated>2018-11-15T12:00:00Z</updated>
+            <title>Audit of NASA&#39;s Fiscal Year 2018 Financial Statements</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-19-004.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-19-004.pdf" type="application/pdf" length="100309" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-19-002.pdf</id>
+            <updated>2018-10-22T12:00:00Z</updated>
+            <title>Audit of NASA&#39;s Historic Property</title>
+            <summary>The Office of Inspector General examined NASA&#39;s management of its historic property, including the processes used to identify, account for, and maintain real and personal property; the extent to which historic property is used to further NASA&#39;s current missions; and the challenges in managing historic property and aging facilities.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-19-002.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-19-002.pdf" type="application/pdf" length="3521925" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-19-001.pdf</id>
+            <updated>2018-10-10T12:00:00Z</updated>
+            <title>NASA&#39;s Management of the Space Launch System Stages Contract</title>
+            <summary>The Office of Inspector General assessed NASA&#39;s management of the Boeing contract developing the Space Launch System&#39;s (SLS) Core Stages and Exploration Upper Stage, key parts of the new heavy-lift rocket.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-19-001.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-19-001.pdf" type="application/pdf" length="5360470" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/SystemReview2018.pdf</id>
+            <updated>2018-08-13T12:00:00Z</updated>
+            <title>External Quality Control Review of the NASA Office of Inspector General&#39;s Office of Audits by the U.S. Office of Personnel Management Office of Inspector General (System Review)</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/SystemReview2018.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/SystemReview2018.pdf" type="application/pdf" length="403503" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-021.pdf</id>
+            <updated>2018-07-30T12:00:00Z</updated>
+            <title>NASA&#39;s Management and Utilization of the International Space Station</title>
+            <summary>The Office of Inspector General assessed NASA&#39;s progress in maximizing utilization of the ISS to accomplish its human exploration objectives and examined the challenges associated with transitioning the Station to commercial operations and its eventual   retirement.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-021.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-021.pdf" type="application/pdf" length="3490574" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-018.pdf</id>
+            <updated>2018-05-29T12:00:00Z</updated>
+            <title>NASA&#39;s Management of Reimbursable Agreements</title>
+            <summary>The Office of Inspector General examined NASA&#39;s management of more than $2 billion in annual reimbursable agreements under which NASA agrees to provide domestic and international partners goods, services, or facilities the Agency is not fully utilizing.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-018.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-018.pdf" type="application/pdf" length="2798314" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-019.pdf</id>
+            <updated>2018-05-24T12:00:00Z</updated>
+            <title>Audit of NASA&#39;s Information Technology Supply Chain Risk Management Efforts</title>
+            <summary>The Office of Inspector General evaluated the effectiveness of NASA&#39;s supply chain risk management efforts to protect the confidentiality, integrity, and availability of NASA data, computer systems, and networks.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-019.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-019.pdf" type="application/pdf" length="1504075" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-020.pdf</id>
+            <updated>2018-05-23T12:00:00Z</updated>
+            <title>Audit of NASA&#39;s Security Operations Center</title>
+            <summary>The Office of Inspector General assessed NASA&#39;s management of the Security Operations Center (SOC) located at Ames Research Center, which  responds to Agency-wide security threats to NASA networks and IT systems.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-020.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-020.pdf" type="application/pdf" length="2629410" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-017.pdf#page=3</id>
+            <updated>2018-05-14T12:00:00Z</updated>
+            <title>NASA&#39;s Compliance with the Improper Payments Information Act for Fiscal Year 2017</title>
+            <summary>The Office of Inspector General evaluated the Agency&#39;s fiscal year 2017 compliance with the Improper Payments Information Act.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-017.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-017.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-016.pdf#page=3</id>
+            <updated>2018-04-26T12:00:00Z</updated>
+            <title>Audit of Commercial Resupply Services to the International Space Station</title>
+            <summary>The Office of Inspector General evaluated NASA&#39;s management of its commercial cargo contracts under which private companies transport supplies, equipment, and experiments to the International Space Station.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-016.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-016.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-015.pdf#page=3</id>
+            <updated>2018-04-05T12:00:00Z</updated>
+            <title>NASA&#39;s Management of GISS: The Goddard Institute for Space Studies</title>
+            <summary>The Office of Inspector General assessed NASA&#39;s management of GISS (located in New York City) and its prominent role in Earth science research and the development of global climate models.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-015.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-015.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-014.pdf#page=3</id>
+            <updated>2018-02-28T12:00:00Z</updated>
+            <title>Review of NASA&#39;s Purchase and Travel Card Programs</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-014.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-014.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-013.pdf</id>
+            <updated>2018-02-08T12:00:00Z</updated>
+            <title>NASA&#39;s Compliance with Federal Export Control Laws</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-013.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-013.pdf" type="application/pdf" length="401457" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-012.pdf#page=3</id>
+            <updated>2018-02-01T12:00:00Z</updated>
+            <title>Audit of the National Space Biomedical Research Institute</title>
+            <summary>The Office of Inspector General examined NASA&#39;s management of its 20-year, $484 million cooperative agreement with the NSBRI to advance the Agency&#39;s biomedical research efforts.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-012.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-012.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-011.pdf#page=3</id>
+            <updated>2018-01-17T12:00:00Z</updated>
+            <title>NASA&#39;s Surface Water and Ocean Topography Mission</title>
+            <summary>The Office of Inspector General evaluated NASA&#39;s development of the SWOT mission, a space-based satellite that hopes to produce the first global survey of Earth&#39;s surface water, observe details of the ocean&#39;s surface topography, and measure how water bodies change over time.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-011.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-011.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-010.pdf#page=3</id>
+            <updated>2018-01-11T12:00:00Z</updated>
+            <title>Management of the National Lab on the International Space Station</title>
+            <summary>The Office of Inspector General assessed efforts of the Center for Advancement of Science in Space (CASIS) to manage non-NASA research on the U.S. portion of the International Space Station known as the National Lab.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-010.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-010.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-005.pdf</id>
+            <updated>2017-11-15T12:00:00Z</updated>
+            <title>Audit of NASA&#39;s Fiscal Year 2017 Financial Statements</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-005.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-005.pdf" type="application/pdf" length="136257" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-004.pdf#page=3</id>
+            <updated>2017-11-07T12:00:00Z</updated>
+            <title>NASA&#39;s Compliance with the Digital Accountability and Transparency Act of 2014 (DATA Act)</title>
+            <summary>The Office of Inspector General examined the completeness, timeliness, and accuracy of NASA&#39;s financial and award data as required under the DATA Act.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-004.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-004.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-003-R.pdf</id>
+            <updated>2017-11-06T12:00:00Z</updated>
+            <title>Federal Information Security Modernization Act: Fiscal Year 2017 Evaluation</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-003-R.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-003-R.pdf" type="application/pdf" length="1688298" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-002.pdf#page=3</id>
+            <updated>2017-10-19T12:00:00Z</updated>
+            <title>NASA&#39;s Efforts to Improve the Agency&#39;s Information Technology Governance</title>
+            <summary>The Office of Inspector General assessed NASA&#39;s progress in improving its  information technology governance and security over the past 4 years.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-002.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-002.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-18-001.pdf#page=3</id>
+            <updated>2017-10-05T12:00:00Z</updated>
+            <title>NASA&#39;s Management of Spare Parts for its Flight Projects</title>
+            <summary>The Office of Inspector General assessed NASA&#39;s management of its spare parts inventory for flight projects and its efforts to reduce project cost by leveraging available  resources.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-18-001.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-18-001.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-025.pdf#page=3</id>
+            <updated>2017-09-18T12:00:00Z</updated>
+            <title>NASA&#39;s Research Efforts and Management of Unmanned Aircraft Systems</title>
+            <summary>The Office of Inspector General evaluated NASA&#39;s ongoing research that seeks to safely integrate unmanned aircraft systems - more commonly known as &quot;aerial drones&quot; - into the national airspace.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-025.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-025.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-021.pdf#page=3</id>
+            <updated>2017-05-17T12:00:00Z</updated>
+            <title>Construction of Test Stands 4693 and 4697 at Marshall Space Flight Center</title>
+            <summary>The Office of Inspector General examined cost, schedule, and other issues related to construction of test stands in Huntsville, Alabama, that will be used to test fuel tanks for NASA&#39;s new heavy lift rocket known as the Space Launch System.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-021.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-021.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-020.pdf#page=3</id>
+            <updated>2017-05-15T12:00:00Z</updated>
+            <title>NASA&#39;s Compliance with the Improper Payments Information Act for Fiscal Year 2016</title>
+            <summary>Our overall objective in this review was to determine whether NASA complied with the requirements of IPIA in fiscal year 2016. We also evaluated the completeness and accuracy of the Agency&#39;s IPIA reporting and its implementation of recommendations made in our prior IPIA reports. To conduct this review, we examined applicable laws and regulations, interviewed Agency personnel, and reviewed NASA&#39;s Agency Financial Report and supporting documentation.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-020.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-020.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-018.pdf#page=3</id>
+            <updated>2017-04-26T12:00:00Z</updated>
+            <title>NASA&#39;s Management and Development of Spacesuits</title>
+            <summary>The Office of Inspector General examined NASA&#39;s management of spacesuits known as Extravehicular Mobility Units used on the International Space Station and the Agency&#39;s development of new spacesuits for deep space exploration.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-018.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-018.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-017.pdf#page=3</id>
+            <updated>2017-04-13T12:00:00Z</updated>
+            <title>NASA&#39;s Plans for Human Exploration Beyond Low Earth Orbit</title>
+            <summary>The Office of Inspector General evaluated NASA&#39;s plans for deep space exploration and crewed missions to Mars.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-017.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-017.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-016.pdf#page=3</id>
+            <updated>2017-03-29T12:00:00Z</updated>
+            <title>NASA&#39;s Parts Quality Control Process</title>
+            <summary>The Office of Inspector General examined NASA&#39;s process for ensuring only high-quality parts are used in its launch vehicles, propulsion systems, robots, satellites, telescopes, and other science instruments.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-016.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-016.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-015.pdf#page=3</id>
+            <updated>2017-03-21T12:00:00Z</updated>
+            <title>NASA&#39;s Efforts to &quot;Rightsize&quot; its Workforce, Facilities, and Other Supporting Assets</title>
+            <summary>The Office of Inspector General evaluated NASA&#39;s ongoing efforts to manage its technical capabilities (workforce, facilities, and other assets) to ensure the Agency is prepared for current and future missions.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-015.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-015.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-013.pdf</id>
+            <updated>2017-03-13T12:00:00Z</updated>
+            <title>Earth Venture Suborbital Investigations</title>
+            <summary>The Office of Inspector General (OIG) evaluated NASA&#39;s Earth Venture Suborbital (EVS) investigations to assess whether they were meeting science objectives, adhering to established cost caps, and using the most appropriate platform to perform their research.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-013.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-013.pdf" type="application/pdf" length="1049465" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-012.pdf#page=3</id>
+            <updated>2017-03-09T12:00:00Z</updated>
+            <title>NASA&#39;s Management of Electromagnetic Spectrum</title>
+            <summary>The Office of Inspector General examined NASA&#39;s efforts to manage its electromagnetic spectrum allocation to communicate with space and science missions amid increasing demands for bandwidth sharing.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-012.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-012.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-011.pdf#page=3</id>
+            <updated>2017-02-08T12:00:00Z</updated>
+            <title>Audit of Industrial Control System Security within NASA&#39;s Critical and Supporting Infrastructure</title>
+            <summary>The Office of Inspector General examined NASA&#39;s efforts to protect its critical infrastructure and related operational control systems from cyber threats.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-011.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-011.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-010.pdf#page=3</id>
+            <updated>2017-02-07T12:00:00Z</updated>
+            <title>Security of NASA&#39;s Cloud Computing Services</title>
+            <summary>The Office of Inspector General reexamined NASA&#39;s efforts to improve the security of Agency information stored in the cloud.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-010.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-010.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-009.pdf#page=3</id>
+            <updated>2017-01-30T12:00:00Z</updated>
+            <title>Audit of the Mars 2020 Rover Project</title>
+            <summary>The Office of Inspector General examined NASA&#39;s management of its next robotic rover mission to the Martian surface, the $2.4 billion Mars 2020 Project.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-009.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-009.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-008.pdf</id>
+            <updated>2017-01-25T12:00:00Z</updated>
+            <title>NASA&#39;s Compliance with Federal Export Contol Laws</title>
+            <summary>The National Aeronautics and Space Administration (NASA) Authorization Act of 2000 directs the NASA Office of Inspector General (OIG) to annually assess the Agency&#39;s compliance with Federal export control laws and reporting requirements regarding cooperative agreements between NASA and China or any Chinese company.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-008.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-008.pdf" type="application/pdf" length="671925" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-004.pdf</id>
+            <updated>2016-11-15T12:00:00Z</updated>
+            <title>Audit of NASA&#39;s Fiscal Year 2016 Financial Statements</title>
+            <summary>The Office of Inspector General contracted with the independent public accounting firm CliftonLarsonAllen LLP (CLA) to audit NASA&#39;s fiscal year (FY) 2016 financial statements. CLA performed the audit in accordance with the Government Accountability Office&#39;s Government Auditing Standards and the Office of Management and Budget&#39;s Bulletin No. 15-02, &quot;Audit Requirements for Federal Financial Statements.&quot;</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-004.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-004.pdf" type="application/pdf" length="361676" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-002.pdf</id>
+            <updated>2016-11-07T12:00:00Z</updated>
+            <title>Federal Information Security Modernization Act: Fiscal Year 2016 Evaluation (Summary)</title>
+            <summary>This annual report, submitted as a memorandum from the Inspector General to the NASA Administrator, provides the Office of Inspector General&#39;s (OIG) independent assessment of NASA&#39;s information security posture, as required by the Federal Information Security Modernization Act of 2014 (FISMA). The law identifies specific security requirements Federal agencies must satisfy and assigns responsibilities to agency officials for addressing and Inspectors General for assessing these requirements.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-002.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-002.pdf" type="application/pdf" length="295222" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-17-003.pdf#page=3</id>
+            <updated>2016-11-02T12:00:00Z</updated>
+            <title>NASA&#39;s Earth Science Mission Portfolio</title>
+            <summary>The Office of Inspector General released a report examining NASA&#39;s management of its Earth science portfolio that includes Earth-orbiting satellites used to collect information on weather, climate, and natural phenomena such as earthquakes, droughts, and wildfires.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-17-003.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-17-003.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-16-030.pdf#page=3</id>
+            <updated>2016-09-28T12:00:00Z</updated>
+            <title>Follow-up Evaluation of NASA&#39;s Implementation of Executive Order 13526, Classified National Security Information</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-16-030.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-16-030.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-16-029.pdf#page=3</id>
+            <updated>2016-09-06T12:00:00Z</updated>
+            <title>NASA&#39;s Management of the Orion Multi-Purpose Crew Vehicle Program</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-16-029.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-16-029.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG-16-028.pdf#page=3</id>
+            <updated>2016-09-01T12:00:00Z</updated>
+            <title>NASA&#39;s Commercial Crew Program: Update on Development and Certification Efforts</title>
+            <summary>The Office of Inspector General evaluated the status of NASA&#39;s Commercial Crew Program under which private U.S. companies will transport NASA astronauts to the International Space Station.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG-16-028.pdf#page=3" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG-16-028.pdf#page=3" type="application/pdf" length="0" title="Audit Reports" />
+        </entry>
+    </feed>

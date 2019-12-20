@@ -1,0 +1,27 @@
+<!-- ************************************************************ 
+
+XML files were used by early versions of the the iOS phone app (versions 1 & 2 pre-2020)
+
+The app has been replaced with version 3.0 that uses json data and support for these xml
+ can be dut off after 2021. Archive and delete the entire xml folder.
+
+-->
+<!-- ************ XML RULES - IMPORTANT! PLEASE READ ************ -->
+<!-- The syntax rules of XML are very simple and logical. NOT FOLLOWING THESE RULES WILL RESULT IN THE OIG APP NOT DISPLAYING CONTENT PROPERLY. -->
+<!-- Rules that must be followed:
+       - All XML elements must have a closing tag.
+       - XML tags are case sensitive.
+       - The characters "<" and "&" are strictly illegal in XML. Use their HTML entity for each:
+            &lt; = less than
+            &amp; = ampersand
+            EXAMPLE: NASA &amp; OIG are in the same building.
+       - To see a full list of XML syntax rules and samples, visit: http://www.w3schools.com/xml/xml_syntax.asp
+       - When saving this file, on a Windows-based computer, using Notepad, it must be saved as a .txt file. Then the extension must be changed to .xml in the finder.
+       - On a Mac OS-based computer, using TextEdit, you can save the file as .rtf or .txt, and then change the extension to .xml in the finder.
+	   
+	   6/21/2017
+	   The dates used in past entries were incorrect for ATOM Feeds.
+	   Changed to ISO format. old (now unused) files prefixed with "x_"
+	   
+-->
+<!-- ************************************************************ -->

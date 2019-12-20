@@ -1,0 +1,209 @@
+﻿
+SITE NOTES:  November 2019
+
+
+I. TEMPLATES
+
+The site template (master page layout) is Templates\Default.dwt.  This is an old "Dynamic Web Template" that works with
+Adobe Dreamweaver and also Microsoft FrontPage/Web Expressions.  Loading the site into Dreamweaver and updating the 
+template is the quickest way to make site wide changes. The template can be easily converted to a .NET Razor Layout
+page or .NET WebForms masterpage should the site be converted.
+
+
+II. DYNAMIC PAGES
+
+The following pages are dynamically generated on the client side using Vue.js and 
+SiteModel.json file stored on Google cloud.
+
+# = requires addendums logic
+
+root
+    archive.html
+    videos.html 
+    Welcome.html 
+
+/oig
+    challenges.html
+    letters.html #
+    reviews.html #
+    sar.html #
+    testimony.html
+
+/oa
+    financial.html
+    operations.html
+    projects.html
+    reports.html   #
+	recommend.html
+    science.html
+    space.html
+    support.html
+    technology.html
+
+/oi
+    press.html
+    reports.html #
+
+
+III. LEGACY PAGES
+
+These page are still using Adobe Spry.js and need to be updated.
+However, best to upgrade at same time as upgrade to Bootstrap 4
+to avoid Spry --> BS 3 --> BS 4
+
+/Welcome.html		(replace news slider with Bootstrap 4 slider)
+/org/offices.html	(replace Spry popovers with Bootstrap 4 popovers)
+
+
+
+IV. STATIC PAGES
+
+The rest of the pages are mostly static content and should be hand edited, e.g., 
+updating contact info.
+
+
+V. SPECIAL PAGES
+
+/oa/recommend.html   - uses Google Charts and date must be created from Excel data
+
+These page are tied to CGI scripts on the back end for form submit.
+These forms should be reword to use Bootstrap form classes. Yet this
+should be done during Bootstrap 4 upgrade.
+
+/cyberhotline.html   (/cgi-bin/cyberhotline.cgi)
+/oa/mandatory.html   (/cgi-bin/mandatory.cgi)
+/foia/request.html   (/cgi-bin/foiarequest.cgi)
+
+VI.
+
+
+
+VII. FORMS
+
+These are the form fields used by CGI scripts.
+
+(A) CYBER HOTLINE
+
+<form method="POST" action="/cgi-bin/cyberhotline.cgi" onsubmit="return checkform(this);">
+
+	Criminal
+	<input type="checkbox" name="type" value="Criminal" id="Criminal">
+
+	Administrative
+	<input type="checkbox" name="type" value="Administrative" id="Administrative">
+
+	Civil
+	<input type="checkbox" name="type" value="Civil" id="Civil">
+
+	NASA Center
+	<select name="center">
+		<option value="">Select One</option>
+		<option value="All">ALL</option>
+		<option value="Ames">Ames Research Center</option>
+		<option value="Dryden">Armstrong Space Flight Center</option>
+		<option value="Glenn">Glenn Research Center at Lewis Field</option>
+		<option value="Goddard">Goddard Space Flight Center</option>
+		<option value="Headquarters">NASA Headquarters</option>
+		<option value="JPL">Jet Propulsion Laboratory</option>
+		<option value="Johnson">Johnson Space Center</option>
+		<option value="Kennedy">Kennedy Space Center</option>
+		<option value="Langley">Langley Research Center</option>
+		<option value="Marshall">Marshall Space Flight Center</option>
+		<option value="Stennis">Stennis Space Center</option>
+		<option value="Wallops">Wallops Flight Facility</option>
+		<option value="other">Other (please specify below)</option>
+	</select>
+
+	NASA Program
+	<input name="program" id="NASA_Program" size="40" maxlength="100">
+
+	Anonymous
+	<input type="radio" name="anonymous" value="Yes" id="Yes">
+	<input type="radio" name="anonymous" value="No" id="No">
+
+	Email
+	<input name="email" type="text" id="E-mail" size="30" maxlength="100">
+
+	Details
+	<textarea name="details"></textarea>
+
+	CAPTCHA
+	<div class="g-recaptcha" id="rcaptcha" data-sitekey="6LerZxQTAAAAACf0ZQjsgrKA-pF3aYHIHWK9gtgT" onclick="document.getElementById('captcha').innerHTML='';">
+
+	Submit
+	<input type="submit" name="submit" value="Submit">
+
+</form>
+
+
+(B) FOIA REQUEST
+
+<form method="POST" action="/cgi-bin/foiarequest.cgi" onsubmit="return checkform(this);">
+
+	Phone
+	<input type="text" name="phone">
+
+	Fax
+	<input type="text" name="fax">
+
+	E-mail
+	<input name="email" type="text">
+
+	Detailed_Description
+	<textarea name="docdesc"></textarea>
+
+	academia
+	<input type="radio" name="description" value="Educational or noncommercial scientific institution">
+
+	individual
+	<input type="radio" name="description" value="Personal use">
+
+	company
+	<input type="radio" name="description" value="Affiliated with a private corporation">
+
+	media
+	<input type="radio" name="description" value="Representative of the news media">
+
+	Company_Name
+	<input type="text" name="medianame">
+
+	Newspaper
+	<input type="radio" name="mediatype" value="Newspaper">
+
+	Magazine
+	<input type="radio" name="mediatype" value="Magazine">
+
+	Televison Station
+	<input type="radio" name="mediatype" value="Televison station">
+
+	Other
+	<input type="radio" name="mediatype" value="Medai other">
+	<input type="text" name="mediatypeother">
+
+	Other Description
+	<input type="radio" name="description" value="Other">
+	<textarea name="otherdesc"></textarea>
+
+	Max_Cost
+	<input type="text" name="fee">
+
+	Request_to_Waiver
+	<textarea name="waiver"></textarea>
+
+	Add_Comment
+	<textarea name="comments"></textarea>
+
+	CAPTCHA
+
+	SUBMIT
+	<input type="submit" name="submit">
+
+	RESET
+	<input type="reset">
+
+</form>
+
+
+(C) Mandatory FAR Contractor Disclosure
+
+see: /oa/mandatory.html

@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#mainnav { /* I added the surrounding div */
+	background: #505050;
+	height:32px;
+	width:963px;
+	float:right;/*min-height: 3em;  this is just to pull the background down the width of the first level */
+}
+#nav { /* this is on the main ul */
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	list-style: none;
+	background: #505050;
+	color: #ffffff;
+}
+#nav ul { /* all lists */
+	padding: 0;
+	margin: 0;
+	/*line-height: 1;*/
+	list-style: none;
+	/* border: 1px solid #cccccc; */
+	color: #ffffff;
+}
+/*#nav a {   affects ALL links in menu 
+	display: block;
+	width: 158px;
+	text-decoration: none;
+	color: #ffffff;
+}*/
+#nav > li { /* top level menu - affects ALL links in menu */
+	float: left;
+	width: 188px; /* width needed or else Opera goes nuts */
+	/*padding: .5em 1em;*/
+	border-right: 1px solid #113c5c;
+	border-left: 1px solid #063456;
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#053351), to(#0a65a1));
+	background: -moz-linear-gradient(top,  #053351,  #0a65a1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#053351', endColorstr='#0a65a1');
+	
+	height: 32px;
+	position: relative;
+	text-align:center;
+}
+#nav li a:link {
+	width: 188px;
+	height: 32px;
+	font: bold 0.85em Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color:#fff;
+	display: block;
+}
+#nav li a:hover {
+	background-color: #f00;
+}
+#nav li.menuSpacer {
+	display: block;
+	width: 201px;
+	background-color: #f00;
+	border-left: 0;
+}
+#nav li a:hover, #nav li a:focus {
+	/* border-top: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999; */
+	color:#ccc;
+} /* end fat border */
+#nav li div { /* second-level lists*/
+	position: absolute;
+	width: 758px;
+	height: 200px;
+	/*padding: .1em 1em 2em 1em;*/
+	margin-top: 0px;
+	margin-left: -1000em;
+	background: #0a65a1;
+	border: 2px solid #000;
+}
+#subnav01 {
+	left: -2px;
+}
+#subnav02 {
+	left: -192px;
+}
+#subnav03 {
+	left: -382px;
+}
+#subnav04 {
+	left: -572px;
+}
+/* second-level row 
+#nav div > ul > li {
+	float: none;
+}*/
+#nav li ul li {
+	display:block;
+	text-align:left;
+	padding: 0px;
+}
+#nav div > ul > li > a { /* second-level row */
+	line-height: 1em;
+	text-align:left;
+	padding: 5px 0 0 0;
+	width: 500px;
+}
+#nav div > ul > li.node > a { /* second-level row with submenus*/
+	font-weight: bold;
+	border-bottom: 1px solid #999999;
+}
+#nav div li li { /* third plus row */
+	display: list-item;
+	padding: 0;
+	padding-left: 1em;
+	width: 10em; /* width needed or else Opera goes nuts */
+	list-style: none inside;	/* padding: .5em 1em; */
+	text-transform: capitalize;
+	border:none;
+	line-height: 0.8em;
+}
+/* third-and-above-level lists 
+#nav li ul ul { 
+	margin: -1.5em 0 0 -1000em; 
+}
+
+#nav li:hover ul ul, #nav li.sfhover ul ul {
+	margin-left: -1000em;
+} */
+
+#nav li:hover div, #nav li.sfhover div { /* lists nested under hovered list items */
+	margin-left: 0;
+}
+/* #nav li li:hover ul, #nav li li.sfhover ul {
+	margin-left: 10.5em;
+} */
+
+#nav li.separator {
+	background-color: #ccc;
+	width: 100%;
+	height: 1px;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+#content { /* this was in the original, so might need it for the menu */
+	clear: left;
+}
+/* extra positioning rules for limited noscript keyboard accessibility */
+/* need the backgrounds here to keep the background as the nav background */
+/* since it is overlaying other content */
+#nav li a:focus + div {
+	margin-left: 0;
+}
+#nav li li a:focus + ul {
+	margin-left: 1000em;
+}
+#nav li li a:focus {
+	margin-left:1000em;
+	width:10em;
+	background: #505050;
+}
+#nav li li li a:focus {
+	margin-left: 1000em;
+	width: 10em;
+	background: #505050;
+}
+#nav li:hover a:focus, #nav li.sfhover a.sffocus {
+	margin-left: 0;
+}
+#nav li li:hover a:focus + ul, #nav li li.sfhover a.sffocus + ul {
+	margin-left: 10em;
+}

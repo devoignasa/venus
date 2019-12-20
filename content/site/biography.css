@@ -1,0 +1,21 @@
+#Biography {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	min-height: 20em;
+}
+
+	#Biography .thumbnail {
+		width: 180px;
+		height: auto;
+		margin-right: 1em;
+		margin-bottom: 1em;
+		float: left;
+		-webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.75);
+		box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.75);
+	}
+
+#Biography p {
+	text-align: justify;
+	margin-top: 1em;
+}

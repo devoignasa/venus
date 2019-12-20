@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://oig.nasa.gov">
+  <title>NASA OIG Special Reviews</title>
+
+  <author><name>NASA Office of Inspector General</name></author>
+
+  <entry><title>Summary: Review of ITAR and Foreign National Access Issues at Ames Research Center</title><updated>2-26-2014</updated><link rel="alternate" type="text/html" href="http://oig.nasa.gov/Special-Review/Ames_ITAR.pdf"/><filesize>425 KB</filesize></entry>
+  
+  <entry><title>NASA's Response</title><updated>2-26-2014</updated><link rel="alternate" type="text/html" href="http://oig.nasa.gov/Special-Review/NASA_Response_AMES.pdf"/><filesize>760 KB</filesize></entry>
+  
+  <entry><title>NASA's Lease of Hangar Space and Sale of Aviation Fuel to H211</title><updated>12-11-2013</updated><link rel="alternate" type="text/html" href="http://oig.nasa.gov/Special-Review/NASA_H211.pdf"/><filesize>333 KB</filesize></entry>
+  
+  <entry><title>Review of Chinese National’s Access to NASA's Langley Research Center</title><updated>10-22-2013</updated><link rel="alternate" type="text/html" href="http://oig.nasa.gov/Special-Review/OIG_Investigative_Summary.pdf"/><filesize>522 KB</filesize></entry>
+  
+  <entry><title>NASA's Response</title><updated>10-22-2013</updated><link rel="alternate" type="text/html" href="http://oig.nasa.gov/Special-Review/NASA_Response.pdf"/><filesize>1.36 MB</filesize></entry>
+  
+  <entry><title>NASA's Efforts to Encrypt its Laptop Computers</title><updated>12-17-2012</updated><link rel="alternate" type="text/html" href="http://oig.nasa.gov/Special-Review/SpecialReview(12-17-12).pdf"/><filesize>2.36 MB</filesize></entry>
+  
+  <entry><title>NASA's Strategic Direction and the Need for a National Consensus</title><updated>12-5-2012</updated><link rel="alternate" type="text/html" href="http://oig.nasa.gov/Special-Review/SpecialReview(12-5-12).pdf"/><filesize>2.32 MB</filesize></entry>
+  
+  <entry><title>Review of Actions by Members of a NASA Advisory Committee</title><updated>8-2-2012</updated><link rel="alternate" type="text/html" href="http://oig.nasa.gov/Special-Review/SpecialReport(8-2-12).pdf"/><filesize>266 KB</filesize></entry>
+  
+  <entry><title>Independent Assessment of NASA's Strategic Direction and Management</title><updated>1-19-2012</updated><link rel="alternate" type="text/html" href="http://oig.nasa.gov/IG%20Review%20proposal%20text_Final.pdf"/><filesize>89 KB</filesize></entry>
+  
+  <entry><title>Review of NASA's Selection of Display Locations for the Space Shuttle Orbiters</title><updated>8-25-2011</updated><link rel="alternate" type="text/html" href="http://oig.nasa.gov/docs/reports/FY11/Review_NASAs_Selection_Display_Locations.pdf"/><filesize>1.0 MB</filesize></entry>
+  
+  <entry><title>Letter 1 to Congress - Use of Constellation Program Funds</title><updated>1-13-2011</updated><link rel="alternate" type="text/html" href="http://oig.nasa.gov/readingRoom/Rock.pdf"/><filesize>72 KB</filesize></entry>
+  
+  <entry><title>Letter 2 to Congress - Use of Constellation Program Funds</title><updated>1-13-2011</updated><link rel="alternate" type="text/html" href="http://oig.nasa.gov/readingRoom/Paul.pdf"/><filesize>73 KB</filesize></entry>
+
+</feed>

@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+/* SpryCollapsiblePanel.css - version 0.5 - Spry Pre-Release 1.6.1 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+/* This is the selector for the main CollapsiblePanel container. For our
+ * default style, the CollapsiblePanel is responsible for drawing the borders
+ * around the widget.
+ *
+ * If you want to constrain the width of the CollapsiblePanel widget, set a width on
+ * the CollapsiblePanel container. By default, our CollapsiblePanel expands horizontally to fill
+ * up available space.
+ *
+ * The name of the class ("CollapsiblePanel") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style the
+ * CollapsiblePanel container.
+ */
+.CollapsiblePanel {
+	margin: 0px;
+	padding: 0px;
+	border-left: 1px solid #C60;
+	border-right: 1px solid #C90;
+	border-top: 1px solid #FC0;
+	border-bottom: 1px solid #C60;
+	position: absolute;
+	left: 158px;
+	top: 228px;
+}
+
+/* This is the selector for the CollapsiblePanelTab. This container houses
+ * the title for the panel. This is also the container that the user clicks
+ * on to open or close the panel.
+ *
+ * The name of the class ("CollapsiblePanelTab") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style an
+ * CollapsiblePanel panel tab container.
+ */
+.CollapsiblePanelTab {
+	border-bottom: 1px solid #C60;
+	margin: 0px;
+	padding: 5px 10px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	background: #C60;
+}
+
+/* This is the selector for a CollapsiblePanel's Content area. It's important to note that
+ * you should never put any padding on the content area element if you plan to
+ * use the CollapsiblePanel's open/close animations. Placing a non-zero padding on the content
+ * element can cause the CollapsiblePanel to abruptly grow in height while the panels animate.
+ *
+ * The name of the class ("CollapsiblePanelContent") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style a
+ * CollapsiblePanel content container.
+ */
+.CollapsiblePanelContent {
+	margin: 0px;
+	padding: 10px 10px 0px;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: #FC6;
+}
+
+/* An anchor tag can be used inside of a CollapsiblePanelTab so that the
+ * keyboard focus ring appears *inside* the tab instead of around the tab.
+ * This is an example of how to make the text within the anchor tag look
+ * like non-anchor (normal) text.
+ */
+.CollapsiblePanelTab a {
+	color: black;
+	text-decoration: none;
+}
+
+/* This is an example of how to change the appearance of the panel tab that is
+ * currently open. The class "CollapsiblePanelOpen" is programatically added and removed
+ * from panels as the user clicks on the tabs within the CollapsiblePanel.
+ */
+.CollapsiblePanelOpen .CollapsiblePanelTab {
+	background-color: #C60;
+}
+
+/* This is an example of how to change the appearance of the panel tab when the
+ * CollapsiblePanel is closed. The "CollapsiblePanelClosed" class is programatically added and removed
+ * whenever the CollapsiblePanel is closed.
+ */
+
+.CollapsiblePanelClosed .CollapsiblePanelTab {
+ /* background-color: #EFEFEF */
+}
+
+/* This is an example of how to change the appearance of the panel tab as the
+ * mouse hovers over it. The class "CollapsiblePanelTabHover" is programatically added
+ * and removed from panel tab containers as the mouse enters and exits the tab container.
+ */
+.CollapsiblePanelTabHover,  .CollapsiblePanelOpen .CollapsiblePanelTabHover {
+	background: #F90;
+}
+
+/* This is an example of how to change the appearance of all the panel tabs when the
+ * CollapsiblePanel has focus. The "CollapsiblePanelFocused" class is programatically added and removed
+ * whenever the CollapsiblePanel gains or loses keyboard focus.
+ */
+.CollapsiblePanelFocused .CollapsiblePanelTab {
+	background: #C60;
+}
+/* ===================== */
+/* ===== NASA Center Office Locations Map ==== */
+
+#usaMap {
+	position: relative;
+}
+#CollapsiblePanel1 { /* AMES */
+	position: absolute;
+	left: 8px;
+	top: 122px;
+	z-index: 3;
+}
+#CollapsiblePanel2 { /* JPL */
+	position: absolute;
+	left: 7px;
+	top: 205px;
+	z-index: 2;
+}
+#CollapsiblePanel3 { /* DFRC */
+	position: absolute;
+	left: 55px;
+	top: 292px;
+	z-index: 1;
+}
+#CollapsiblePanel4 { /* JSC */
+	position: absolute;
+	left: 222px;
+	top: 360px;
+	z-index: 2;
+}
+#CollapsiblePanel5 { /* SSC */
+	position: absolute;
+	left: 359px;
+	top: 357px;
+	z-index: 2;
+}
+#CollapsiblePanel6 { /* MSFC */
+	position: absolute;
+	left: 438px;
+	top: 340px;
+	z-index: 2;
+}
+#CollapsiblePanel7 { /* KSC */
+	position: absolute;
+	left: 520px;
+	top: 379px;
+	z-index: 1;
+}
+#CollapsiblePanel8 { /* LRC */
+	position: absolute;
+	left: 561px;
+	top: 249px;
+	z-index: 1;
+}
+#CollapsiblePanel9 { /* HQ */
+	position: absolute;
+	left: 588px;
+	top: 165px;
+	z-index: 1;
+}
+#CollapsiblePanel10 { /* GSFC */
+	position: absolute;
+	left: 575px;
+	top: 123px;
+	z-index: 1;
+}
+#CollapsiblePanel11 { /* GRC */
+	position: absolute;
+	left: 438px;
+	top: 78px;
+	z-index: 1;
+}

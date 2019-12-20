@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#mainnav { 
+	background: #505050;
+	height:32px;
+	width:963px;
+	float:right;
+}
+#nav { /* this is on the main ul */
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	list-style: none;
+	background: #505050;
+	color: #ffffff;
+}
+#nav ul { /* all lists */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	color: #ffffff;
+}
+#nav a {
+	display: block;
+	width: 10em;
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+#nav > li { /* top level menu */
+	float: left;
+	width: 188px;
+	height: 32px;
+	
+	border-right: 1px solid #113c5c;
+	border-left: 1px solid #25c;
+	text-align:center;
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#053351), to(#0a65a1));
+	background: -moz-linear-gradient(top,  #053351,  #0a65a1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#053351', endColorstr='#0a65a1'); 
+}
+
+#nav li.menuSpacer {
+	display: block;
+	width: 201px;
+	border-left: 0;
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#053351), to(#0a65a1));
+	background: -moz-linear-gradient(top,  #053351,  #0a65a1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#053351', endColorstr='#0a65a1');
+}
+#nav div {
+	border: 2px solid #053351;
+}
+#nav li a {
+	padding: 5px 0 0 0;
+	width: 188px;
+	height: 32px;
+	font-weight: bold;
+}
+#nav li a:hover {
+	color: #ccc;
+	background-color: #053351;
+}
+#subnav01 {
+	left: 203px;
+}
+#subnav02 {
+	left: 394px;
+}
+#subnav03 {
+	left: 584px;
+}
+#subnav04 {
+	left: 774px;
+}
+#nav a:hover, #nav a:focus {
+	color:#fff;
+}
+
+#nav li div { /* second-level lists */
+	position: absolute;
+	width: 300px;
+	height: 180px;
+	margin-top: -5px;
+	margin-left: -1000em;
+	background: #0a65a1;
+	color: #ffffff;
+}
+.mainnavSubTitle {
+	font-size: 1em;
+	color: #069;
+	background-color: #053351;
+	padding: 11px;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#nav li ul li {
+	display:block;
+	text-align:left;
+	height: 32px;
+}
+#nav div > ul > li > a { /* second-level row */
+	font-size: 0.85em;
+	padding: 10px 0 0 20px;
+	width: 280px;
+	font-weight: bold;
+}
+#nav div > ul > li > a:hover { 
+	background-color: #69C;
+	color:#053351;
+}
+#nav li:hover div,
+#nav li.sfhover div { /* lists nested under hovered list items */
+	margin-left: 0;
+}
+#nav li.separator {
+	border: 1px solid #999999;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+/* extra positioning rules for limited noscript keyboard accessibility */
+/* need the backgrounds here to keep the background as the nav background */
+/* since it is overlaying other content */
+#nav li a:focus + div { margin-left: 0; }
+#nav li li a:focus + ul { margin-left: 1000em; }
+#nav li li a:focus { margin-left:1000em; width:740px; background: #69C;}
+#nav li li li a:focus {margin-left: 1000em; width: 10em; background: #505050;}
+#nav li:hover a:focus, #nav li.sfhover a.sffocus { margin-left: 0;}
+#nav li li:hover a:focus + ul, #nav li li.sfhover a.sffocus + ul { margin-left: 10em; }
+

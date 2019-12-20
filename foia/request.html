@@ -1,0 +1,484 @@
+﻿<!DOCTYPE html>
+<html lang="en"><!-- #BeginTemplate "/Templates/Default.dwt" --><!-- DW6 -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- #BeginEditable "title" -->
+    <title>NASA OIG</title>
+    <!-- #EndEditable -->
+
+    <link rel="shortcut icon" href="/favicon.ico?" type="image/vnd.microsoft.icon" />
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+    <script src="/content/jquery/4/jquery.min.js"></script>
+    <script src="/content/bootstrap/3/bootstrap.min.js"></script>
+    <link href="/content/bootstrap/3/bootstrap.min.css" rel="stylesheet">
+    <link href="/content/site/SiteStyles.css" rel="stylesheet" type="text/css">
+    
+<!-- #BeginEditable "head" -->
+    <!-- Additional script and style libraries -->
+    <!-- #EndEditable --> 
+
+</head>
+<body>
+
+    <noscript>
+        <div class="alert alert-info">
+        JavaScript disabled. This website may not function correctly with your current browser settings.
+        </div>
+    </noscript>
+
+    <div class="container-fluid hidden-xs">
+        <div class="row" id="bannerBkgd">
+            <div class="col-lg-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10" id="bannerSeal">
+                            <a href="/Welcome.html">
+                                <img src="/images/logo-lg-oig.png" alt="NASA OIG Seal" align="left" />
+                            </a>
+                            <span id="bannerText">NASA Office of Inspector General</span>
+                        </div>
+                        <div class="col-lg-2" style="margin-top:50px;">
+                            <a href="/hotline.html" id="hotlineBtn">HOTLINE</a><br />
+                            <span id="hotlineSubtext">Report Fraud / Waste / Abuse</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center hidden-lg hidden-md hidden-sm" style="background-color:#445777;color:white;"> 
+        <div class="h2">NASA IG</div>
+    </div>
+
+    <div class="container-fluid" style="padding:0;">
+        <div class="row" style="background-color:#445777;">
+            <div class="col-lg-offset-7 col-lg-5">
+                <div id="socialLinkBullets">
+                    <a href="mailto:ig-reports-request@hq.nasa.gov" id="social_email">Subscribe</a> <a href="http://twitter.com/NASAOIG" id="social_twitter" target="_blank">Twitter</a> 
+                    <a href="https://www.facebook.com/NASA-OIG-152542428109320" id="social_facebook" target="_blank">Facebook</a>
+                    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4f6c9e8f5f45eb8b" class="addthis_button" id="social_share">Share</a>
+                    <script src="https://s7.addthis.com/js/250/addthis_widget.js"></script>
+                    <a href="/phoneapp.html" id="social_iOS" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default" role="navigation" id="navBkgdColor">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navCustomStyles">
+                    <li class=""><a href="/Welcome.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Audit <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/oa/projects.html">Active Projects</a></li>
+                            <li><a href="/oa/reports.html">Issued Reports</a></li>
+                            <li><a href="/oa/recovery.html">Recovery Act</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Investigations <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/oi/about.html">About</a></li>
+                            <li><a href="/oi/reports.html">Reports</a></li>
+                            <li><a href="/oi/press.html">Press Releases</a></li>
+                            <li><a href="/oi/offices.html">Field Offices</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/org/bio/ig.html" target="_new">Inspector General</a></li>
+                            <li><a href="/org/mission.html">Mission</a></li>
+                            <li><a href="/org/about.html">OIG Personnel</a></li>
+                            <li><a href="/org/chart.html">NASA OIG Organization</a></li>
+                            <li><a href="/org/offices.html">OIG Field Offices</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recruitment <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/omp/hr/info.html">General Information</a></li>
+                            <li><a href="/omp/hr/current.html">Current Vacancies</a></li>
+                            <li><a href="/omp/hr/apply.html">How to Apply</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form method="get" action="https://www.bing.com/search" id="search_form" class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <label for="q" class="obscure">Enter a search term</label>
+                        <input type="text" class="form-control" placeholder="Key word(s)" name="q" id="q">
+                        <input type="hidden" name="cp" value="1252" />
+                        <input type="hidden" name="FORM" value="FREESS" />
+                        <input type="hidden" name="q1" value="site:oig.nasa.gov" />
+                    </div>
+                    <button type="submit" class="btn btn-default" value="Search" id="searchButton">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+<!-- DO NOT MODIFY PAGE FROM TEMPLATE MARKER UPWARD -->
+<!-- #BeginEditable "body" -->
+
+
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="mainContent">
+                    <!-- Skip navigation link --><a name="mainContent"></a>
+                    <div id="subContent">
+                        <div id="subContainer">
+                            <form autocomplete="on" method="POST" action="/cgi-bin/foiarequest.cgi" onsubmit="return checkform(this);">
+                                <h2>Electronic FOIA Request Form</h2>
+                                <p>
+                                    To make an Electronic FOIA (E-FOIA) request please fill in the following information:<br>
+                                    <em>(Failure to enter accurate information may render your FOIA request impossible to fulfill.)</em><br>
+                                    *Required fields
+                                </p>
+                                <div id="foia">
+                                    <div class="form_number">1</div>
+                                    <div class="form_content">
+                                        <p><strong>Enter contact information for yourself:</strong></p>
+                                        <table width="613">
+                                            <tr>
+                                                <td width="120" align="right"><label for="Name1">*Name:</label></td>
+                                                <td width="481"><input name="name" id="Name1" size="50"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" valign="top" nowrap=""><label for="Address">*Address:</label></td>
+                                                <td><textarea name="address" id="Address" rows="5" cols="50" wrap="hard"></textarea></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" nowrap="">
+                                                    <em>(Optional)</em>
+                                                    <label for="Phone">Phone #:</label>
+                                                </td>
+                                                <td><input name="phone" id="Phone" size="20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <em>(Optional)</em>
+                                                    <label for="Fax">Fax #:</label>
+                                                </td>
+                                                <td><input name="fax" id="Fax" size="20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <em>(Optional)</em>
+                                                    <label for="E-mail">E-mail :</label>
+                                                </td>
+                                                <td>
+                                                    <span id="sprytextfield1">
+                                                        <input name="email" type="text" id="E-mail" size="42" maxlength="60">
+                                                        <span class="textfieldInvalidFormatMsg">Invalid format!</span>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div id="foia">
+                                    <div class="form_number">2</div>
+                                    <div class="form_content">
+                                        <p>
+                                            <label for="Detailed_Description">
+                                                <strong>*Identify and describe the type of document that you are requesting:</strong><br>
+                                                Enter a detailed description...
+                                            </label>
+                                        </p>
+                                        <table>
+                                            <tr>
+                                                <td><textarea name="docdesc" id="Detailed_Description" rows="10" cols="80" wrap="hard"></textarea></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div id="foia">
+                                    <div class="form_number">3</div>
+                                    <div class="form_content">
+                                        <p><strong>*Select a suitable description of yourself and the purpose of the request in order to help us determine the status for assessing costs. You are:</strong></p>
+                                        <p>
+                                            <label for="academia">
+                                                <input type="radio" name="description" value="Educational or noncommercial scientific institution" id="academia" class="radioButtonAlignment">
+                                                Affiliated with an educational or noncommercial scientific institution, and this request is made for a scholarly or scientific purpose and not for commercial use.
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label for="individual">
+                                                <input type="radio" name="description" value="Personal use" id="individual" class="radioButtonAlignment">
+                                                An individual seeking information for personal use and not for a commercial use.
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label for="company">
+                                                <input type="radio" name="description" value="Affiliated with a private corporation" id="company" class="radioButtonAlignment">
+                                                Affiliated with a private corporation, and I am seeking information for use in the company's business.
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label for="media">
+                                                <input type="radio" name="description" value="Representative of the news media" id="media" class="radioButtonAlignment">
+                                                A representative of the news media, and this request is made part of news gathering and not for a commercial use.
+                                            </label>
+                                        </p>
+                                        <div id="mediaSub">
+                                            <p>
+                                                <label for="Company_Name">Enter media company name:</label>
+                                                <input type="text" id="Company_Name" name="medianame" size="40">
+                                            </p>
+                                            <p>Select type of media:</p>
+                                            <p>
+                                                <label for="Newspaper">
+                                                    <input type="radio" name="mediatype" value="Newspaper" id="Newspaper">
+                                                    Newspaper
+                                                </label>
+                                                <br>
+                                                <label for="Magazine">
+                                                    <input type="radio" name="mediatype" value="Magazine" id="Magazine">
+                                                    Magazine
+                                                </label>
+                                                <br>
+                                                <label for="Televison station">
+                                                    <input type="radio" name="mediatype" value="Televison station" id="Televison station">
+                                                    Television station
+                                                </label>
+                                                <br>
+                                                <label for="other">
+                                                    <input type="radio" name="mediatype" value="Medai other" id="other">
+                                                    Other (identify):
+                                                </label>
+                                                <input type="text" id="Other" name="mediatypeother" size="50">
+                                            </p>
+                                        </div>
+                                        <p>
+                                            <label for="Other_Description">
+                                                <input type="radio" name="description" value="Other">
+                                                Other:
+                                                <textarea name="otherdesc" id="Other_Description" rows="3" cols="45" wrap="hard" style="vertical-align:middle;">Enter other description and purpose...</textarea>
+                                            </label>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="foia">
+                                    <div class="form_number">4</div>
+                                    <div class="form_content">
+                                        <p><strong>(Optional)</strong></p>
+                                        <p>
+                                            <label for="Max_Cost">Enter maximum cost amount that you are willing to pay:</label>
+                                            <strong>$</strong>
+                                            <input type="text" id="Max_Cost" name="fee" size="15">
+                                        </p>
+                                        <p><em>(You will be informed if the estimated costs will exceed this limit.)</em></p>
+                                    </div>
+                                </div>
+                                <div id="foia">
+                                    <div class="form_number">5</div>
+                                    <div class="form_content">
+                                        <p><strong>(Optional)</strong></p>
+                                        <p>
+                                            <label for="Request_to_Waiver">Explanation for a request to waiver all costs:</label>
+                                            <br>
+                                            <textarea name="waiver" id="Request_to_Waiver" rows="3" cols="50" wrap="hard" d=""></textarea>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="foia">
+                                    <div class="form_number">6</div>
+                                    <div class="form_content">
+                                        <p><strong>(Optional)</strong></p>
+                                        <p>
+                                            <label for="Add_Comment">Additional comments:</label>
+                                            <br>
+                                            <textarea name="comments" id="Add_Comment" rows="3" cols="50" wrap="hard"></textarea>
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--- CAPTCHA Added 05/19/17  --->
+
+                                <div>
+                                    <label>
+                                        <div style="float:left;">
+                                            7. <b>Please check the box below:</b>
+                                            <div class="g-recaptcha" id="rcaptcha" data-sitekey="6LerZxQTAAAAACf0ZQjsgrKA-pF3aYHIHWK9gtgT" onclick="document.getElementById('captcha').innerHTML='';"></div>
+                                            &nbsp; <span id="captcha" style="margin-left:90px;color:red"></span>
+                                        </div>
+                                    </label>
+
+
+
+                                    <!--- CAPTCHA Added 05/19/17  --->
+
+                                    <div>
+                                        <p>
+                                            <input type="submit" name="submit" value="Submit FOIA Request">
+                                            <input type="reset" value="Reset Form">
+                                        </p>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                            <div>
+                                <div>
+                                    <p>&nbsp;</p>
+                                </div>
+                                <td valign="top">
+                                    <p><b>PRIVACY ACT ADVISORY: </b></p>
+                                    <p>AUTHORITY: 42 USC &sect; 2473; 44 USC &sect; 3101; 5 USC &sect; 552 Freedom of Information Act (FOIA) as amended; 14 CFR part 1206. NASA Privacy Act System of Records Notice, NASA 10. </p>
+                                    <p>PURPOSE: This system allows individuals to file electronic FOIA requests. </p>
+                                    <p>ROUTINE USE: Any disclosures of information will be compatible with the purpose for which the Agency collected the information. The records and information in these records may be disclosed in accordance with NASA standard routine uses as set forth in Appendix B of NASA Privacy Act Systems of Records Notices. </p>
+                                    <p>DISCLOSURE: Voluntary. We seek your full name and postal mailing address. Failure to provide this information may result in your request not being processed. Disclosures of this information outside the Agency may be made to parties for the purposes detailed in the Routine Uses section of the Privacy Act System of Records Notice, NASA 10. </p>
+                                </td>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+        var sprytextfield1 = new Spry.Widget.ValidationTextField(
+                "sprytextfield1",
+                "email",
+                {
+                    isRequired: false,
+                    validateOn: ["blur"]
+                }
+            );
+    </script>
+
+
+
+    <!-- #EndEditable -->
+<!-- DO NOT MODIFY PAGE FROM TEMPLATE MARKER DOWNWARD -->
+
+    <footer id="footerInternal" class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-md-4 col-sm-2 contentSpan footerAudits">
+                    <p>Audits</p>
+                    <ul>
+                        <li><a href="/oa/projects.html">Active Projects</a></li>
+                        <li><a href="/oa/reports.html">Issued Reports</a></li>
+                        <li><a href="/oa/recovery.html">Recovery Act</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-2 contentSpan footerInvestigations">
+                    <p>Investigations</p>
+                    <ul>
+                        <li><a href="/oi/about.html">About</a></li>
+                        <li><a href="/oi/reports.html">Reports</a></li>
+                        <li><a href="/oi/press.html">Press Releases</a></li>
+                        <li><a href="/oi/offices.html">Field Offices</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-2 contentSpan footerAboutUs">
+                    <p>About Us</p>
+                    <ul>
+                        <li><a href="/org/bio/ig.html" target="_new">Inspector General</a></li>
+                        <li><a href="/org/mission.html">Mission</a></li>
+                        <li><a href="/org/about.html">OIG Personnel</a></li>
+                        <li><a href="/org/chart.html">NASA OIG Organization</a></li>
+                        <li><a href="/org/offices.html">OIG Field Offices</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-2 contentSpan footerRecruitment">
+                    <p>Recruitment</p>
+                    <ul>
+                        <li><a href="/omp/hr/info.html">General Information</a></li>
+                        <li><a href="/omp/hr/current.html">Current Vacancies</a></li>
+                        <li><a href="/omp/hr/apply.html">How to Apply</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-4 col-xm-12 contentSpan footerOversightAreas">
+                    <p>Oversight Areas</p>
+                    <ul>
+                        <li><a href="/oa/space.html">Space Operations</a></li>
+                        <li><a href="/oa/science.html">Science &amp; Aeronautics</a></li>
+                        <li><a href="/oa/technology.html">Information Technology</a></li>
+                        <li><a href="/oa/financial.html">Financial Management</a></li>
+                        <li><a href="/oa/support.html">Mission Support</a></li>
+                        <li><a href="/oa/operations.html">Audit Operations and<br />&nbsp;&nbsp;&nbsp;Quality Assurance</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xm-12 contentSpan footerContactNASAOIG">
+                    <p>Contact NASA OIG</p>
+                    <ul>
+                        <li>
+                            <a href="/org/contact.html">NASA OIG</a><br />
+                            <span class="smallText">Address, phone numbers, and e-mail</span>
+                        </li>
+                        <li>
+                            <a href="/foia/index.html">FOIA</a><br />
+                            <span class="smallText">Freedom of Information Act requests</span>
+                        </li>
+                        <li>
+                            <a href="/oa/mandatory.html">
+                                Mandatory FAR<br />
+                                Contractor Disclosure
+                            </a><br />
+                            <span class="smallText">Report violations of the civil False Claims Act or a violation of Federal criminal law</span>
+                        </li>
+                        <li>
+                            <a href="/whistleblower.html" 
+                               style="background-color:red;color:whitesmoke;padding:1px;margin-top:5px; margin-bottom:5px;display:block;">
+                                Whistleblower Protection Coordinator</a>
+                            <div class="smallText">Information about Federal Whistleblower Protections</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xm-12 contentSpan footerInternalEmail">
+                    <ul>
+                        <li>Curator: <a href="mailto:HQ-OIG-IT-Help@mail.nasa.gov?subject=NASA OIG Website&cc=james.c.akers@nasa.gov;Chris.Han@nasa.gov">James Akers</a></li>
+                        <li>NASA Official: <a href="mailto:HQ-OIG-IT-Help@mail.nasa.gov?subject=NASA OIG Website&cc=james.c.akers@nasa.gov;Chris.Han@nasa.gov">Chris Han</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <script language="Javascript">
+                                document.write("Last Updated: " + document.lastModified + "");
+                            </script>
+                        </li>
+                        <li>Last Reviewed: 03/20/2018</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+ 
+
+    <footer id="footerGovt" class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-1"> <a href="https://www.nasa.gov"><img src="/images/logo-sm-nasa.png" width="58" height="48" alt="NASA logo"></a></div>
+                <div class="col-xs-2"> <a href="https://www.usa.gov"><img src="/images/logo-sm-usagov.png" width="99" height="33" alt="USA.gov"></a></div>
+                <div class="col-xs-3">
+                    <a href="https://www.ignet.gov" target="_blank"><img src="/images/logo-sm-ignet.png"></a>
+                    <!--Council of the Inspectors General on Integrity & Efficiency-->
+                </div>
+                <div class="col-xs-2"> <a href="https://www.oversight.gov" target="_blank"><img src="/images/logo-sm-oversight.png"></a> </div>
+                <div class="col-xs-4">
+                    <ul>
+                        <li><a href="/disclaimer.html">&#9656; OIG Disclaimer</a></li>
+                        <li><a href="/foia/index.html">&#9656; Freedom of Information Act</a></li>
+                        <li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">&#9656; NASA Privacy, Security, Notices</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- #EndTemplate --></html>

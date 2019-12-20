@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed  xmlns="http://www.w3.org/2005/Atom" xmlns:georss="https://oig.nasa.gov">
+  <title>NASA OIG Audit Reports</title>
+  <author>
+    <name>NASA Office of Inspector General</name>
+  </author>
+  <entry>
+    <updated>11-15-2017</updated>
+    <title>Audit of NASA&apos;s Fiscal Year 2017 Financial Statements (IG-18-005)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-18-005.pdf"/>
+    <filesize>3.76 MB</filesize>
+  </entry>
+  <entry>
+    <updated>11-07-2017</updated>
+    <title>NASA&apos;s Compliance with the Digital Accountability and Transparency Act of 2014 (DATA Act) (IG-18-004)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-18-004.pdf"/>
+    <filesize>4.37 MB</filesize>
+  </entry>
+  <entry>
+    <updated>11-06-2017</updated>
+    <title>Federal Information Security Modernization Act: Fiscal Year 2017 Evaluation (IG-18-003)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-18-003-R.pdf"/>
+    <filesize>3.00 MB</filesize>
+  </entry>
+  <entry>
+    <updated>10-19-2017</updated>
+    <title>NASA&apos;s Efforts to Improve the Agency&apos;s Information Technology Governance (IG-18-002)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-18-002.pdf"/>
+    <filesize>3.37 MB</filesize>
+  </entry>
+  <entry>
+    <updated>10-05-2017</updated>
+    <title>NASA&apos;s Management of Spare Parts for its Flight Projects (IG-18-001)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-18-001.pdf"/>
+    <filesize>2.71 MB</filesize>
+  </entry>
+  <entry>
+    <updated>09-18-2017</updated>
+    <title>NASA&apos;s Research Efforts and Management of Unmanned Aircraft Systems (IG-17-025)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-025.pdf"/>
+    <filesize>2.57 MB</filesize>
+  </entry>
+  <entry>
+    <updated>05-17-2017</updated>
+    <title>Construction of Test Stands 4693 and 4697 at Marshall Space Flight Center (IG-17-021)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-021.pdf"/>
+    <filesize>1.64 MB</filesize>
+  </entry>
+  <entry>
+    <updated>05-15-2017</updated>
+    <title>NASA&apos;s Compliance with the Improper Payments Information Act for Fiscal Year 2016 (IG-17-020)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-020.pdf"/>
+    <filesize>1.51 MB</filesize>
+  </entry>
+  <entry>
+    <updated>04-26-2017</updated>
+    <title>NASA&apos;s Management and Development of Spacesuits (IG-17-018)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-018.pdf"/>
+    <filesize>3.26 MB</filesize>
+  </entry>
+  <entry>
+    <updated>04-13-2017</updated>
+    <title>NASA&apos;s Plans for Human Exploration Beyond Low Earth Orbit (IG-17-017)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-017.pdf"/>
+    <filesize>6.38 MB</filesize>
+  </entry>
+  <entry>
+    <updated>03-29-2017</updated>
+    <title>NASA&apos;s Parts Quality Control Process (IG-17-016)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-016.pdf"/>
+    <filesize>2.47 MB</filesize>
+  </entry>
+  <entry>
+    <updated>03-21-2017</updated>
+    <title>NASA&apos;s Efforts to &quot;Rightsize&quot; its Workforce, Facilities, and Other Supporting Assets (IG-17-015)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-015.pdf"/>
+    <filesize>8.93 MB</filesize>
+  </entry>
+  <entry>
+    <updated>03-13-2017</updated>
+    <title>Earth Venture Suborbital Investigations (IG-17-013)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-013.pdf"/>
+    <filesize>1 MB</filesize>
+  </entry>
+  <entry>
+    <updated>03-09-2017</updated>
+    <title>NASA&apos;s Management of Electromagnetic Spectrum (IG-17-012)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-012.pdf"/>
+    <filesize>2.95 MB</filesize>
+  </entry>
+  <entry>
+    <updated>02-08-2017</updated>
+    <title>Audit of Industrial Control System Security within NASA&apos;s Critical and Supporting Infrastructure (IG-17-011)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-011.pdf"/>
+    <filesize>4.35 MB</filesize>
+  </entry>
+  <entry>
+    <updated>02-07-2017</updated>
+    <title>Security of NASA&apos;s Cloud Computing Services (IG-17-010)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-010.pdf"/>
+    <filesize>2.65 MB</filesize>
+  </entry>
+  <entry>
+    <updated>01-30-2017</updated>
+    <title>Audit of the Mars 2020 Rover Project (IG-17-009)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-009.pdf"/>
+    <filesize>2.53 MB</filesize>
+  </entry>
+  <entry>
+    <updated>01-25-2017</updated>
+    <title>NASA&apos;s Compliance with Federal Export Contol Laws (IG-17-008)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-008.pdf"/>
+    <filesize>0.64 MB</filesize>
+  </entry>
+  <entry>
+    <updated>01-10-2017</updated>
+    <title>Federal Information Security Modernization Act: Fiscal Year 2016 Evaluation (Full Report) (IG-17-002)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-002A.pdf"/>
+    <filesize>1.06 MB</filesize>
+  </entry>
+  <entry>
+    <updated>11-15-2016</updated>
+    <title>Audit of NASA&apos;s Fiscal Year 2016 Financial Statements (IG-17-004)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-004.pdf"/>
+    <filesize>0.34 MB</filesize>
+  </entry>
+  <entry>
+    <updated>11-07-2016</updated>
+    <title>Federal Information Security Modernization Act: Fiscal Year 2016 Evaluation (Summary) (IG-17-002)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-002.pdf"/>
+    <filesize>0.28 MB</filesize>
+  </entry>
+  <entry>
+    <updated>11-02-2016</updated>
+    <title>NASA&apos;s Earth Science Mission Portfolio (IG-17-003)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-17-003.pdf"/>
+    <filesize>3.91 MB</filesize>
+  </entry>
+  <entry>
+    <updated>09-28-2016</updated>
+    <title>Follow-up Evaluation of NASA&apos;s Implementation of Executive Order 13526, Classified National Security Information (IG-16-030)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-030.pdf"/>
+    <filesize>2.1 MB</filesize>
+  </entry>
+  <entry>
+    <updated>09-06-2016</updated>
+    <title>NASA&apos;s Management of the Orion Multi-Purpose Crew Vehicle Program (IG-16-029)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-029.pdf"/>
+    <filesize>4.28 MB</filesize>
+  </entry>
+  <entry>
+    <updated>09-01-2016</updated>
+    <title>NASA&apos;s Commercial Crew Program: Update on Development and Certification Efforts (IG-16-028)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-028.pdf"/>
+    <filesize>2.52 MB</filesize>
+  </entry>
+  <entry>
+    <updated>07-27-2016</updated>
+    <title>Report Mandated by the Cybersecurity Act of 2015 (IG-16-026)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-026.pdf"/>
+    <filesize>0.63 MB</filesize>
+  </entry>
+  <entry>
+    <updated>06-28-2016</updated>
+    <title>NASA&apos;s Response to SpaceX&apos;s June 2015 Launch Failure: Impacts on Commercial Resupply of the International Space Station (IG-16-025)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-025.pdf"/>
+    <filesize>4.57 MB</filesize>
+  </entry>
+  <entry>
+    <updated>06-09-2016</updated>
+    <title>Review of NASA-funded Institutes (IG-16-023)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-023.pdf"/>
+    <filesize>20.5 MB</filesize>
+  </entry>
+  <entry>
+    <updated>05-26-2016</updated>
+    <title>NASA&apos;s Implementation of Export Control and Foreign National Access Management Recommendations (IG-16-022)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-022.pdf"/>
+    <filesize>1.98 MB</filesize>
+  </entry>
+  <entry>
+    <updated>05-12-2016</updated>
+    <title>NASA&apos;s Compliance with the Improper Payments Information Act for Fiscal Year 2015 (IG-16-021)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-021.pdf"/>
+    <filesize>2.61 MB</filesize>
+  </entry>
+  <entry>
+    <updated>05-05-2016</updated>
+    <title>NASA&apos;s International Partnerships: Capabilities, Benefits, and Challenges (IG-16-020)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-020.pdf"/>
+    <filesize>8.53 MB</filesize>
+  </entry>
+  <entry>
+    <updated>05-05-2016</updated>
+    <title>Audit of NASA&apos;s Engineering Services Contract at Kennedy Space Center (IG-16-017)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-017.pdf"/>
+    <filesize>4.4 MB</filesize>
+  </entry>
+  <entry>
+    <updated>04-14-2016</updated>
+    <title>Review of NASA&apos;s Information Security Program (IG-16-016)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-016.pdf"/>
+    <filesize>1.43 MB</filesize>
+  </entry>
+  <entry>
+    <updated>03-28-2016</updated>
+    <title>Audit of the Spaceport Command and Control System (IG-16-015)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-015.pdf"/>
+    <filesize>2.59 MB</filesize>
+  </entry>
+  <entry>
+    <updated>03-17-2016</updated>
+    <title>NASA&apos;s Management of the Near Earth Network (IG-16-014)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-014.pdf"/>
+    <filesize>4.86 MB</filesize>
+  </entry>
+  <entry>
+    <updated>02-18-2016</updated>
+    <title>Audit of a NASA Space Grant Awarded to the University of Texas at Austin (IG-16-013)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-013.pdf"/>
+    <filesize>2.39 MB</filesize>
+  </entry>
+  <entry>
+    <updated>02-02-2016</updated>
+    <title>Review of NASA&apos;s Compliance with Federal Export Control Laws (IG-16-012)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-012.pdf"/>
+    <filesize>0.62 MB</filesize>
+  </entry>
+  <entry>
+    <updated>01-21-2016</updated>
+    <title>Audit of a NASA Research Grant Awarded to the University of Miami (IG-16-011)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-011.pdf"/>
+    <filesize>1.96 MB</filesize>
+  </entry>
+  <entry>
+    <updated>12-15-2015</updated>
+    <title>NASA&apos;s Efforts to Manage Its Space Technology Portfolio (IG-16-008)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-008.pdf"/>
+    <filesize>4.94 MB</filesize>
+  </entry>
+  <entry>
+    <updated>11-18-2015</updated>
+    <title>Audit of the National Aeronautics and Space Administration&apos;s Fiscal Year 2015 Financial Statements (IG-16-006)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-006.pdf"/>
+    <filesize>0.37 MB</filesize>
+  </entry>
+  <entry>
+    <updated>10-29-2015</updated>
+    <title>NASA&apos;s Efforts to Manage Health and Human Performance Risks for Space Exploration (IG-16-003)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-003.pdf"/>
+    <filesize>4.4 MB</filesize>
+  </entry>
+  <entry>
+    <updated>10-19-2015</updated>
+    <title>Federal Information Security Management Act: Fiscal Year 2015 Evaluation (IG-16-002)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-002.pdf"/>
+    <filesize>0.38 MB</filesize>
+  </entry>
+  <entry>
+    <updated>10-19-2015</updated>
+    <title>NASA&apos;s Education Program (IG-16-001)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-16-001.pdf"/>
+    <filesize>2.01 MB</filesize>
+  </entry>
+  <entry>
+    <updated>09-29-2015</updated>
+    <title>Audit of NASA&apos;s Joint Cost and Schedule Confidence Level Process (IG-15-024)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-024.pdf"/>
+    <filesize>2.54 MB</filesize>
+  </entry>
+  <entry>
+    <updated>09-17-2015</updated>
+    <title>NASA&apos;s Response to Orbital&apos;s October 2014 Launch Failure: Impacts on Commercial Resupply of the International Space Station (IG-15-023)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-023.pdf"/>
+    <filesize>3.83 MB</filesize>
+  </entry>
+  <entry>
+    <updated>09-01-2015</updated>
+    <title>External Quality Control Review (SR-2015-1)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/NASA Peer Review Final 9-1-15.pdf"/>
+    <filesize>1.04 MB</filesize>
+  </entry>
+  <entry>
+    <updated>07-16-2015</updated>
+    <title>Audit of NASA&apos;s Cooperative Agreements Awarded to Wise County Circuit Court (IG-15-022)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-022.pdf"/>
+    <filesize>6.58 MB</filesize>
+  </entry>
+  <entry>
+    <updated>07-15-2015</updated>
+    <title>Audit of NASA&apos;s Management of International Space Station Operations and Maintenance Contracts (IG-15-021)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-021.pdf"/>
+    <filesize>1.51 MB</filesize>
+  </entry>
+  <entry>
+    <updated>06-30-2015</updated>
+    <title>Review of NASA&apos;s Pressure Vessels and Pressurized Systems Program (IG-15-019)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-019.pdf"/>
+    <filesize>3.76 MB</filesize>
+  </entry>
+  <entry>
+    <updated>06-29-2015</updated>
+    <title>Audit of NASA&apos;s Cooperative Agreement Award to the City of New Orleans (IG-15-018)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-018.pdf"/>
+    <filesize>4.05 MB</filesize>
+  </entry>
+  <entry>
+    <updated>05-15-2015</updated>
+    <title>NASA&apos;s Compliance with the Improper Payments Act for Fiscal Year 2014 (IG-15-015)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-015.pdf"/>
+    <filesize>2.72 MB</filesize>
+  </entry>
+  <entry>
+    <updated>04-23-2015</updated>
+    <title>Audit of NASA&apos;s Requirements for Plum Brook Station (IG-15-014)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-014.pdf"/>
+    <filesize>2.32 MB</filesize>
+  </entry>
+  <entry>
+    <updated>03-26-2015</updated>
+    <title>NASA&apos;s Management of the Deep Space Network (IG-15-013)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-013.pdf"/>
+    <filesize>4.43 MB</filesize>
+  </entry>
+  <entry>
+    <updated>03-18-2015</updated>
+    <title>NASA&apos;s Launch Support and Infrastructure Modernization:  Assessment of the Ground Systems Needed to Launch SLS and Orion (IG-15-012)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-012.pdf"/>
+    <filesize>2.47 MB</filesize>
+  </entry>
+  <entry>
+    <updated>01-28-2015</updated>
+    <title>Review of NASA&apos;s Compliance with Federal Export Control Laws (EX-2015)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/Memorandum-ReviewofNASA'sCompliancewithFederalExportControlLaws.pdf"/>
+    <filesize>0.64 MB</filesize>
+  </entry>
+  <entry>
+    <updated>12-17-2014</updated>
+    <title>Costs Incurred on NASA&apos;s Cost-Type Contracts (IG-15-010)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-010.pdf"/>
+    <filesize>2.78 MB</filesize>
+  </entry>
+  <entry>
+    <updated>12-16-2014</updated>
+    <title>NASA&apos;s Use of Blanket Purchase Agreements (IG-15-009)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-009.pdf"/>
+    <filesize>2.61 MB</filesize>
+  </entry>
+  <entry>
+    <updated>11-26-2014</updated>
+    <title>Audit of the National Aeronautics and Space Administration&apos;s Fiscal Year 2014 Financial Statements (IG-15-006)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-006.pdf"/>
+    <filesize>0.37 MB</filesize>
+  </entry>
+  <entry>
+    <updated>11-13-2014</updated>
+    <title>Federal Information Security Management Act: Fiscal Year 2014 Evaluation (IG-15-004)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-004.pdf"/>
+    <filesize>0.38 MB</filesize>
+  </entry>
+  <entry>
+    <updated>10-23-2014</updated>
+    <title>NASA&apos;s Launch Support and Infrastructure Modernization:  Commercial Space Launch Activities at Kennedy Space Center (IG-15-003)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-003.pdf"/>
+    <filesize>2.54 MB</filesize>
+  </entry>
+  <entry>
+    <updated>10-21-2014</updated>
+    <title>Audit of NASA&apos;s Premium Air Travel (IG-15-002)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-002.pdf"/>
+    <filesize>2.4 MB</filesize>
+  </entry>
+  <entry>
+    <updated>10-09-2014</updated>
+    <title>The Science Mission Directorate&apos;s Mission Extension Process (IG-15-001)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-15-001.pdf"/>
+    <filesize>1.3 MB</filesize>
+  </entry>
+  <entry>
+    <updated>09-18-2014</updated>
+    <title>Extending the Operational Life of the International Space Station Until 2024 (IG-14-031)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-031.pdf"/>
+    <filesize>2.19 MB</filesize>
+  </entry>
+  <entry>
+    <updated>09-15-2014</updated>
+    <title>NASA&apos;s Efforts to Identify and Mitigate Near-Earth Object Hazards (IG-14-030)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-030.pdf"/>
+    <filesize>1.49 MB</filesize>
+  </entry>
+  <entry>
+    <updated>08-04-2014</updated>
+    <title>Audit of NASA&apos;s Cooperative Agreement with BioServe Space Technologies - University of Colorado at Boulder (IG-14-028)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-028.pdf"/>
+    <filesize>0.84 MB</filesize>
+  </entry>
+  <entry>
+    <updated>07-23-2014</updated>
+    <title>Audit of Grant Awarded to North Carolina State University (IG-14-027)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-027.pdf"/>
+    <filesize>0.22 MB</filesize>
+  </entry>
+  <entry>
+    <updated>07-22-2014</updated>
+    <title>Audit of the Space Network&apos;s Physical and Information Technology Security Risks (IG-14-026)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-026.pdf"/>
+    <filesize>0.27 MB</filesize>
+  </entry>
+  <entry>
+    <updated>07-16-2014</updated>
+    <title>NASA&apos;s Independent Verification and Validation Program (IG-14-024)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-024.pdf"/>
+    <filesize>0.96 MB</filesize>
+  </entry>
+  <entry>
+    <updated>07-14-2014</updated>
+    <title>Audit of NASA&apos;s Cooperative Agreement Awarded to Rockwell Collins (IG-14-025)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-025.pdf"/>
+    <filesize>0.19 MB</filesize>
+  </entry>
+  <entry>
+    <updated>07-10-2014</updated>
+    <title>Security of NASA&apos;s Web Applications (IG-14-023)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-023.pdf"/>
+    <filesize>0.86 MB</filesize>
+  </entry>
+  <entry>
+    <updated>07-09-2014</updated>
+    <title>SOFIA:  NASA&apos;s Stratospheric Observatory for Infrared Astronomy (IG-14-022)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-022.pdf"/>
+    <filesize>1.46 MB</filesize>
+  </entry>
+  <entry>
+    <updated>07-02-2014</updated>
+    <title>Audit of NASA&apos;s Environmental Restoration Efforts (IG-14-021)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-021.pdf"/>
+    <filesize>1.12 MB</filesize>
+  </entry>
+  <entry>
+    <updated>06-05-2014</updated>
+    <title>NASA&apos;s Use of Space Agreements (IG-14-020)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-020.pdf"/>
+    <filesize>1.53 MB</filesize>
+  </entry>
+  <entry>
+    <updated>04-29-2014</updated>
+    <title>NASA&apos;s Management of its Space Network (IG-14-018)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-018.pdf"/>
+    <filesize>1.34 MB</filesize>
+  </entry>
+  <entry>
+    <updated>04-15-2014</updated>
+    <title>NASA&apos;s Compliance with the Improper Payments Information Act for Fiscal Year 2013 (IG-14-016)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-016.pdf"/>
+    <filesize>1.04 MB</filesize>
+  </entry>
+  <entry>
+    <updated>02-27-2014</updated>
+    <title>NASA&apos;s Management of its Smartphones, Tablets, and Other Mobile Devices (IG-14-015)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-015.pdf"/>
+    <filesize>0.74 MB</filesize>
+  </entry>
+  <entry>
+    <updated>02-12-2014</updated>
+    <title>NASA&apos;s Award Contract Closeout Process (IG-14-014)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-014.pdf"/>
+    <filesize>1.21 MB</filesize>
+  </entry>
+  <entry>
+    <updated>02-04-2014</updated>
+    <title>Review of NASA&apos;s Contract for Computer Equipment and Services (IG-14-013)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-013.pdf"/>
+    <filesize>0.23 MB</filesize>
+  </entry>
+  <entry>
+    <updated>01-30-2014</updated>
+    <title>Review of NASA&apos;s Management Strategy for Conducting Aeronautics Research (IG-14-012)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-012.pdf"/>
+    <filesize>0.37 MB</filesize>
+  </entry>
+  <entry>
+    <updated>01-29-2014</updated>
+    <title>Review of NASA&apos;s Compliance with Federal Export Control Laws  (EX-2014)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/readingRoom/LettertoCongress_ReviewofNASACompliancewithFederalExportControlLaws.pdf"/>
+    <filesize>0.19 MB</filesize>
+  </entry>
+  <entry>
+    <updated>01-15-2014</updated>
+    <title>NASA&apos;s Strategic Sourcing Program (IG-14-010)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-010.pdf"/>
+    <filesize>2.02 MB</filesize>
+  </entry>
+  <entry>
+    <updated>01-08-2014</updated>
+    <title>Core Stage Testing for NASA&apos;s Space Launch System (IG-14-009)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-009.pdf"/>
+    <filesize>0.9 MB</filesize>
+  </entry>
+  <entry>
+    <updated>12-17-2013</updated>
+    <title>Audit of the National Aeronautics and Space Administration&apos;s Fiscal Year 2013 Financial Statements (IG-14-006)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-006.pdf"/>
+    <filesize>0.12 MB</filesize>
+  </entry>
+  <entry>
+    <updated>11-20-2013</updated>
+    <title>Federal Information Security Management Act: Fiscal Year 2013 Evaluation (IG-14-004)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-004.pdf"/>
+    <filesize>0.14 MB</filesize>
+  </entry>
+  <entry>
+    <updated>11-19-2013</updated>
+    <title>NASA&apos;s Use of Award-fee Contracts (IG-14-003)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-003.pdf"/>
+    <filesize>1.5 MB</filesize>
+  </entry>
+  <entry>
+    <updated>11-13-2013</updated>
+    <title>NASA&apos;s Management of its Commercial Crew Program (IG-14-001)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-14-001.pdf"/>
+    <filesize>1.77 MB</filesize>
+  </entry>
+  <entry>
+    <updated>09-26-2013</updated>
+    <title>NASA&apos;s Compliance with Executive Order 13526: Classified National Security Information  (IG-13-023)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-023.pdf"/>
+    <filesize>0.45 MB</filesize>
+  </entry>
+  <entry>
+    <updated>08-15-2013</updated>
+    <title>NASA&apos;s Orion Multi-Purpose Crew Vehicle (IG-13-022)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-022.pdf"/>
+    <filesize>2.37 MB</filesize>
+  </entry>
+  <entry>
+    <updated>07-29-2013</updated>
+    <title>NASA&apos;s Adoption of Cloud-Computing Technologies (IG-13-021)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-021.pdf"/>
+    <filesize>1.13 MB</filesize>
+  </entry>
+  <entry>
+    <updated>07-18-2013</updated>
+    <title>Audit of Selected NASA Conferences (IG-13-020)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-020.pdf"/>
+    <filesize>0.6 MB</filesize>
+  </entry>
+  <entry>
+    <updated>07-08-2013</updated>
+    <title>NASA&apos;s Efforts to Maximize Research on the International Space Station (ISS) (IG-13-019)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-019.pdf"/>
+    <filesize>2.29 MB</filesize>
+  </entry>
+  <entry>
+    <updated>06-13-2013</updated>
+    <title>NASA&apos;s Commercial Cargo Program (IG-13-016)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-016.pdf"/>
+    <filesize>4.16 MB</filesize>
+  </entry>
+  <entry>
+    <updated>06-05-2013</updated>
+    <title>NASA&apos;s Information Technology (IT) Governance (IG-13-015)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-015.pdf"/>
+    <filesize>1.37 MB</filesize>
+  </entry>
+  <entry>
+    <updated>04-08-2013</updated>
+    <title>NASA&apos;s Management of Energy Savings Contracts (IG-13-014)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-014.pdf"/>
+    <filesize>1.86 MB</filesize>
+  </entry>
+  <entry>
+    <updated>03-27-2013</updated>
+    <title>NASA&apos;s Explosives Safety Program (IG-13-013)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-013.pdf"/>
+    <filesize>2.11 MB</filesize>
+  </entry>
+  <entry>
+    <updated>03-18-2013</updated>
+    <title>NASA&apos;s Process for Acquiring Information Technology Security Assessment and Monitoring Tools (IG-13-006)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-006.pdf"/>
+    <filesize>2.43 MB</filesize>
+  </entry>
+  <entry>
+    <updated>03-14-2013</updated>
+    <title>NASA&apos;S Compliance with the Improper Payments Information Act for Fiscal Year 2012 (IG-13-011)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-011.pdf"/>
+    <filesize>1.93 MB</filesize>
+  </entry>
+  <entry>
+    <updated>02-28-2013</updated>
+    <title>Review of NASA&apos;s Internal Controls for Awards with Small Businesses (IG-13-010)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-010.pdf"/>
+    <filesize>0.58 MB</filesize>
+  </entry>
+  <entry>
+    <updated>02-21-2013</updated>
+    <title>Review of Mars Atmosphere and Volatile Evolution (MAVEN) Project (IG-13-009)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-009.pdf"/>
+    <filesize>0.81 MB</filesize>
+  </entry>
+  <entry>
+    <updated>02-14-2013</updated>
+    <title>NASA&apos;s Environmental Remediation Efforts at the Santa Susana Field Laboratory (IG-13-007)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-007.pdf"/>
+    <filesize>3.41 MB</filesize>
+  </entry>
+  <entry>
+    <updated>02-12-2013</updated>
+    <title>NASA&apos;s Efforts to Reduce Unneeded Infrastructure and Facilities (IG-13-008)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-008.pdf"/>
+    <filesize>1.17 MB</filesize>
+  </entry>
+  <entry>
+    <updated>01-29-2013</updated>
+    <title>Review of NASA&apos;s Compliance with Federal Export Control Laws  (EX-2013)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/readingRoom/LettertoCongress-ReviewofNASA'sCompliancewithFederalExportControlLaws(NA).pdf"/>
+    <filesize>3.7 MB</filesize>
+  </entry>
+  <entry>
+    <updated>11-15-2012</updated>
+    <title>Audit of the National Aeronautics and Space Administration&apos;s Fiscal Year 2012 Financial Statements (IG-13-003)</title>
+    <link  rel="alternate" type="text/html" href="https://oig.nasa.gov/docs/IG-13-003-summary.pdf"/>
+    <filesize>0.07 MB</filesize>
+  </entry>
+</feed>

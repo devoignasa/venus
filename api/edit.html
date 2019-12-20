@@ -1,0 +1,421 @@
+﻿<!DOCTYPE html>
+<html lang="en"><!-- #BeginTemplate "/Templates/Admin.dwt" --><!-- DW6 -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- #BeginEditable "title" -->
+    <title>NASA OIG</title>
+    <!-- #EndEditable -->
+
+    <link rel="shortcut icon" href="/favicon.ico?" type="image/vnd.microsoft.icon" />
+
+    <!-- Load polyfills to support older browsers -->
+    <script src="//polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/url-search-params/1.1.0/url-search-params.js"></script>
+
+    <!-- Load required Bootstrap and BootstrapVue CSS -->
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css" />
+    <link rel="stylesheet" type="text/css" href="/content/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vuejs-datepicker/1.6.2/vuejs-datepicker.min.js"></script>
+
+    <!-- Load Vue followed by BootstrapVue -->
+    <script src="//unpkg.com/vue@latest/dist/vue.min.js"></script>
+    <script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
+
+    <!-- Google Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-database.js"></script>
+    <script src="content/firebaseConfig.js"></script>
+
+    <link href="content/bootstrap-oig-theme.css" rel="stylesheet" />
+
+<!-- #BeginEditable "head" -->
+
+<!-- #EndEditable -->
+
+</head>
+<body>
+
+    <noscript>
+        <div class="alert alert-info">
+            JavaScript disabled. This website may not function correctly with your current browser settings.
+        </div>
+    </noscript>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="/">
+            <img src="content/logo-lg-oig.png" style="height:30px;width:auto;" />
+        </a>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="database.html">Database</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="publish.html">Publish</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="admin.html">Admin</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+               
+            </span>
+        </div>
+    </nav>
+
+    <div class="container" style="margin-top: 65px;">
+
+<!-- #BeginEditable "body" -->
+
+        <style>
+            .input-label {
+                font-weight: bold;
+            }
+
+            label.input-required:after {
+                content: ' *';
+                color: red;
+            }
+            /* remove inner border from date-pickers */
+            .vdp-datepicker [readonly] {
+                background-color: white;
+            }
+
+            ::placeholder {
+                font-style: italic;
+                font-size: 0.9em;
+            }
+        </style>
+
+        <div id="VueApp">
+
+            <div class="card">
+                <div class="card-header bg-khaki">
+
+                    <h4 style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis;">{{item.name}}&nbsp;{{item.title}}</h4>
+
+                    <div class="text-right mt-4">
+                        <div class="btn btn-sm btn-default mr-2" style="width:8em;" v-on:click="onPreview">Preview</div>
+                        <div class="btn btn-sm btn-default mr-2" style="width:8em;" v-on:click="onCancel">Cancel</div>
+                        <div class="btn btn-sm btn-default" style="width:8em;" v-on:click="onUpdate">Save</div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div v-if="message" class="alert alert-info">{{message}}</div>
+                    <div class="form">
+
+                        <div class="form-row my-4">
+                            <div class="col">
+                                <label class="text-muted input-label input-required">Name</label>
+                                <input v-model="item.name" type="text" class="form-control" spellcheck="false" placeholder="required">
+                            </div>
+                            <div class="col">
+                                <label class="text-muted input-label input-required">Issued</label>
+                                <vuejs-datepicker v-model:value="item.issued"
+                                                  :clear-button=true
+                                                  :bootstrap-styling=true
+                                                  :format="dateFmt"
+                                                  placeholder="required">
+                                </vuejs-datepicker>
+                            </div>
+                            <div class="col">
+                                <label class="text-muted input-label">Expires</label>
+                                <vuejs-datepicker v-model:value="item.expires"
+                                                  :bootstrap-styling=true
+                                                  :clear-button=true
+                                                  placeholder="optional">
+                                </vuejs-datepicker>
+                            </div>
+                            <div class="col">
+                                <label class="text-muted input-label input-required">Type</label>
+                                <select v-model:value="item.type" class="form-control">
+                                    <option value="">None</option>
+                                    <option v-for="item in metadata.types" v-bind:value="item.id">{{item.name}}</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label class="text-muted input-label">Topic</label>
+                                <select v-model:value="item.topic" class="form-control">
+                                    <option value="">None</option>
+                                    <option v-for="item in metadata.topics" v-bind:value="item.id">{{item.name}}</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row my-4">
+                            <div class="col">
+                                <label class="text-muted input-label input-required">Title</label>
+                                <input v-model="item.title" type="text" class="form-control" placeholder="required">
+                            </div>
+                        </div>
+
+                        <div class="form-row my-4">
+                            <div class="col">
+                                <label class="text-muted input-label">Summary</label>
+                                <textarea v-model="item.summary" rows="2" class="form-control"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-row my-4">
+                            <div class="col">
+                                <label class="text-muted input-label mr-2">Document</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" v-model:value="item.link" spellcheck="false">
+                                    <div class="input-group-append">
+                                        <label for="link" class="btn btn-outline-secondary m-0">Browse</label>
+                                        <input type="file" accept="application/pdf" style="display:none;" id="link" v-on:change="uploadDoc">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <label class="text-muted input-label mr-2">Image</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" v-model:value="item.image" spellcheck="false">
+                                    <div class="input-group-append">
+                                        <label for="image" class="btn btn-outline-secondary m-0">Browse</label>
+                                        <input type="file" accept="image/*" style="display:none;" id="image" v-on:change="uploadImage">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <label class="text-muted input-label mr-2">Video</label>
+                                <div v-if="videos">
+                                <select v-model:value="item.video" class="form-control">
+                                    <option value="">None</option>
+                                    <option v-for="video in videos" v-bind:value="video.id">{{video.title}}</option>
+                                </select>
+                                </div>
+                                <div v-else>
+                                    <input class="form-control" v-model:value="item.video" spellcheck="false">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="form-row my-4">
+                            <div class="form-check form-check-inline">
+                                <strong class="text-muted mr-4">Attributes:</strong>
+                                <input class="form-check-input" id="hidden" type="checkbox" v-model="item.hidden">
+                                <label class="form-check-label" for="hidden">Hidden (draft)</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="foia" type="checkbox" v-model="item.foia">
+                                <label class="form-check-label" for="foia">FOIA</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="redacted" type="checkbox" v-model="item.redacted">
+                                <label class="form-check-label" for="redacted">Redacted</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="addendum" type="checkbox" v-model="item.addendum">
+                                <label class="form-check-label" for="addendum">Addendum</label>
+                            </div>
+                        </div>
+
+
+                        <label class="text-muted input-label">Notes</label>
+                        <textarea v-model="item.notes" rows="5" class="form-control" placeholder="enter any private notes here"></textarea>
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="card-footer">
+                    <div class="form-row">
+                        <div class="col text-left">
+                            <label class="text-muted input-label">ID:</label> {{item.id}}
+                        </div>
+                        <div class="col text-right">
+                            <div class="btn btn-sm btn-outline-danger" v-on:click="onRemove">Delete</div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <b-modal ref="preview" size="xl" title="Preview" ok-only>
+                <div style="min-height:300px;">
+                <img v-if="imageURL" v-bind:src="imageURL" class="thumbnail float-left mr-4" style="height:300px;width:auto;">
+                <div>
+                    <div>{{dateFmt(item.issued) || 'Missing Issued Date'}}</div>
+                    <div><strong>{{item.name || 'Missing Name'}}</strong></div>
+                    <div><strong>{{item.title || 'Missing Title'}}</strong></div>
+                    <p>{{item.summary}}</p>
+                    <div v-if="docURL">
+                        <a v-bind:href="docURL" target="_blank">Report</a>
+                    </div>
+                    <div v-if="item.video">
+                        <a v-bind:href="'https://www.youtube.com/watch?v=' + item.video" target="_blank">Video</a>
+                    </div>
+                </div>
+                </div>
+            </b-modal>
+
+
+
+        </div>
+
+
+
+
+        <script src="content/Repository.js"></script>
+
+        <script>
+
+
+            new Vue({
+                el: '#VueApp',
+                components: {
+                    vuejsDatepicker
+                },
+                data: {
+                    item: {},
+                    metadata: {},
+                    message: '',
+                    imageURL: '',
+                    docURL: '',
+                    videoURL: '',
+                    videos: []
+                },
+
+                watch: {
+
+                    // see: https://stackoverflow.com/a/46331968/943435
+
+                    'item.image': function (name, old) {
+                        var me = this;
+                        Repository.getThumbnailURL('images', name, function (url) {
+                            me.$data.imageURL = url;
+                        });
+                    },
+                    'item.link': function (name, old) {
+                        var me = this;
+                        Repository.getURL('docs', name, function (url) {
+                            me.$data.docURL = url;
+                        });
+                    }
+                },
+
+                methods: {
+
+                    fmtSize: function (item) {
+                        var n = item.size && !isNaN(item.size) ? parseInt(item.size) : 0;
+                        return n >= 1048576 ? (n / 1048576).toFixed(0) + ' mb'
+                            : n >= 1024 ? (n / 1024).toFixed(0) + ' kb'
+                                : n > 0 ? n + ' b'
+                                    : '';
+                    },
+
+                    dateFmt: function (date) {
+
+                        return date ? (new Date(date)).toLocaleDateString(
+                            'en-US', {
+                            year: 'numeric',
+                            month: 'long',
+                            day: 'numeric'
+                        }) : '';
+                    },
+
+                    uploadImage(e) {
+                        var me = this;
+                        var files = e.target.files;
+                        if (files && files.length && files[0].type.indexOf('image') >= 0) {
+
+                            var file = files[0];
+                            var name = 'g' + (new Date()).getTime().toString(36) + '.' + file.name.split('.').pop().toLowerCase();
+                            Repository.upload('images', file, name, function (url) {
+                                me.$data.item.image = name;
+                                me.$data.imageURL = url;
+                            });
+                        }
+                    },
+
+                    uploadDoc(e) {
+                        var me = this;
+                        var files = e.target.files;
+                        if (files && files.length) {
+                            var file = files[0];
+                            var name = file.name.replace(/[^a-z0-9\.\-\_]/ig, '');
+                            Repository.upload('docs', file, name, function (url) {
+                                me.$data.item.link = name;
+                                me.$data.item.size = file.size;
+                                me.$data.docURL = url;
+                            });
+                        }
+                    },
+
+                    datefmt: function (date) {
+                        return date ? new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
+                    },
+
+                    onUpdate: function () {
+                        var me = this;
+                        Repository.update(me.$data.item, function () {
+                            me.exit();
+                        });
+                    },
+
+                    onCancel: function () {
+                        this.exit();
+                    },
+
+                    onPreview: function () {
+
+                        this.$refs['preview'].show();
+                    },
+
+                    onRemove: function () {
+                        var me = this;
+                        if (confirm('Confirm you want to delete item')) {
+                            Repository.remove(me.$data.item, function () {
+                                me.exit();
+                            });
+                        }
+                    },
+
+                    exit: function () {
+                        var qs = new URLSearchParams((location.hash || '').slice(1));
+                        var url = qs.get('url') || '/';
+                        url = decodeURIComponent(url);
+                        location.href = url;
+                    }
+
+                },
+                mounted: function () {
+                    var me = this;
+                    var qs = new URLSearchParams((location.hash || '').slice(1));
+                    var id = qs.get('id');
+
+                    Repository.get(id, function (item) {
+                        me.$data.item = new Item(item);
+                    })
+
+                    Repository.metadata(function (data) {
+                        me.$data.metadata = data;
+                    });
+
+                    Repository.videos(function (list) {
+                        console.log(list);
+                        me.$data.videos = list;
+                    })
+
+                }
+            });
+
+        </script>
+
+        <!-- #EndEditable -->
+
+	</div>
+</body>
+<!-- #EndTemplate --></html>

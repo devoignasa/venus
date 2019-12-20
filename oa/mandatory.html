@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en"><!-- #BeginTemplate "/Templates/Default.dwt" --><!-- DW6 -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- #BeginEditable "title" -->
+<title>NASA OIG</title>
+<!-- #EndEditable -->
+
+    <link rel="shortcut icon" href="/favicon.ico?" type="image/vnd.microsoft.icon" />
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+    <script src="/content/jquery/4/jquery.min.js"></script>
+    <script src="/content/bootstrap/3/bootstrap.min.js"></script>
+    <link href="/content/bootstrap/3/bootstrap.min.css" rel="stylesheet">
+    <link href="/content/site/SiteStyles.css" rel="stylesheet" type="text/css">
+    
+<!-- #BeginEditable "head" -->
+
+	<!-- Additional script and style libraries -->
+
+<!-- #EndEditable --> 
+
+</head>
+<body>
+
+    <noscript>
+        <div class="alert alert-info">
+        JavaScript disabled. This website may not function correctly with your current browser settings.
+        </div>
+    </noscript>
+
+    <div class="container-fluid hidden-xs">
+        <div class="row" id="bannerBkgd">
+            <div class="col-lg-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10" id="bannerSeal">
+                            <a href="/Welcome.html">
+                                <img src="/images/logo-lg-oig.png" alt="NASA OIG Seal" align="left" />
+                            </a>
+                            <span id="bannerText">NASA Office of Inspector General</span>
+                        </div>
+                        <div class="col-lg-2" style="margin-top:50px;">
+                            <a href="/hotline.html" id="hotlineBtn">HOTLINE</a><br />
+                            <span id="hotlineSubtext">Report Fraud / Waste / Abuse</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center hidden-lg hidden-md hidden-sm" style="background-color:#445777;color:white;"> 
+        <div class="h2">NASA IG</div>
+    </div>
+
+    <div class="container-fluid" style="padding:0;">
+        <div class="row" style="background-color:#445777;">
+            <div class="col-lg-offset-7 col-lg-5">
+                <div id="socialLinkBullets">
+                    <a href="mailto:ig-reports-request@hq.nasa.gov" id="social_email">Subscribe</a> <a href="http://twitter.com/NASAOIG" id="social_twitter" target="_blank">Twitter</a> 
+                    <a href="https://www.facebook.com/NASA-OIG-152542428109320" id="social_facebook" target="_blank">Facebook</a>
+                    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4f6c9e8f5f45eb8b" class="addthis_button" id="social_share">Share</a>
+                    <script src="https://s7.addthis.com/js/250/addthis_widget.js"></script>
+                    <a href="/phoneapp.html" id="social_iOS" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default" role="navigation" id="navBkgdColor">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navCustomStyles">
+                    <li class=""><a href="/Welcome.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Audit <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/oa/projects.html">Active Projects</a></li>
+                            <li><a href="/oa/reports.html">Issued Reports</a></li>
+                            <li><a href="/oa/recovery.html">Recovery Act</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Investigations <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/oi/about.html">About</a></li>
+                            <li><a href="/oi/reports.html">Reports</a></li>
+                            <li><a href="/oi/press.html">Press Releases</a></li>
+                            <li><a href="/oi/offices.html">Field Offices</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/org/bio/ig.html" target="_new">Inspector General</a></li>
+                            <li><a href="/org/mission.html">Mission</a></li>
+                            <li><a href="/org/about.html">OIG Personnel</a></li>
+                            <li><a href="/org/chart.html">NASA OIG Organization</a></li>
+                            <li><a href="/org/offices.html">OIG Field Offices</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recruitment <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/omp/hr/info.html">General Information</a></li>
+                            <li><a href="/omp/hr/current.html">Current Vacancies</a></li>
+                            <li><a href="/omp/hr/apply.html">How to Apply</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form method="get" action="https://www.bing.com/search" id="search_form" class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <label for="q" class="obscure">Enter a search term</label>
+                        <input type="text" class="form-control" placeholder="Key word(s)" name="q" id="q">
+                        <input type="hidden" name="cp" value="1252" />
+                        <input type="hidden" name="FORM" value="FREESS" />
+                        <input type="hidden" name="q1" value="site:oig.nasa.gov" />
+                    </div>
+                    <button type="submit" class="btn btn-default" value="Search" id="searchButton">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+<!-- DO NOT MODIFY PAGE FROM TEMPLATE MARKER UPWARD -->
+<!-- #BeginEditable "body" -->
+
+
+
+
+
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-md-12">
+
+            <div id="mainContent">
+                <!-- Skip navigation link --><a name="mainContent"></a>
+                <div id="subContent">
+                    <div id="subContainer">
+
+                        <h2>Mandatory FAR Contractor Disclosure</h2>
+                        <p id="cyberhotlineDisclosure"><a href="/cyberhotline.html">CYBERHOTLINE</a> | Contractor Disclosure Form</p>
+                        <p><strong>Instructions:</strong></p>
+                        <p>Fill in the form below. <em>If your are unsure if this form applies or you have any questions, please contact Counsel to the Inspector General at <a href="mailto:HQ-OIG-Counsel@mail.nasa.gov?subject=FAR Contractor Reporting Form Question">HQ-OIG-Counsel@mail.nasa.gov </a></em></p>
+                        <p><strong>FAR Contractor Reporting Form</strong></p>
+                        <p>The purpose of this form is to allow the Contractor to notify, in writing, the agency Office of the Inspector General whenever the contractor has <strong>credible evidence</strong> that a principal, employee, agent, or subcontractor of the Contractor has committed a violation of the civil False Claims Act or a violation of Federal criminal law in connection with the award or performance of a contract or any related subcontract. The individual completing this form must be an officer or manager within the company for whom this report is being made and empowered to speak for the company by filing this report. If the information you wish to provide does not fall within these guidelines, please refer to the Inspector General Hotline/Fraud Reporting form.</p>
+                        <p>
+                            <strong> Alternatively you may report by writing to the following address:</strong><br>
+                            NASA Office of Inspector General<br>
+                            PO Box 23089<br>
+                            L'Enfant Plaza Station<br>
+                            Washington, DC 20026
+                        </p>
+
+                        <form autocomplete="off" method="POST" action="/cgi-bin/mandatory.cgi" onsubmit="return checkform(this);" id="cyberhotline">
+
+                            <table border="0" cellpadding="1" cellspacing="5" id="conDisForm">
+                                <tr>
+                                    <td colspan="2" bgcolor="#eee"><h3>Contact Info:</h3></td>
+                                </tr>
+                                <tr>
+                                    <td width="174" align="right"><label for="First_Name">Your First Name:</label></td>
+                                    <td width="547"><input name="fname" id="First_Name" size="40" maxlength="100"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="Last_Name">Your Last Name:</label></td>
+                                    <td><input name="lname" id="Last_Name" size="40" maxlength="100"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="Title">Your Title:</label></td>
+                                    <td><input name="title" id="Title" size="40" maxlength="100"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="email"> Your Email:</label></td>
+                                    <td><input name="email" id="emailID" size="40" maxlength="100" onblur="validate_email(this,'Your email is not a valid e-mail address!')"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="Cemail">Confirm Email:</label></td>
+                                    <td><input name="emailcn" id="Cemail" size="40" maxlength="100"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="Cname">Company Name:</label></td>
+                                    <td><input name="cname" id="Cname" size="40" maxlength="100"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="Adress1">Address 1:</label></td>
+                                    <td><input name="address1" id="Address1" size="40" maxlength="100"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="Adress2">Address 2:</label></td>
+                                    <td><input name="address2" id="Address2" size="40" maxlength="100"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="City">City:</label></td>
+                                    <td><input name="city" id="City" size="40" maxlength="100"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="StateProvince">State/Province:</label></td>
+                                    <td><input name="stateprovince" id="StateProvince" size="40" maxlength="40"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="Zip">Zip/Postal Code:</label></td>
+                                    <td><input name="zip" id="Zip" size="40" maxlength="100"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="Country">Country:</label></td>
+                                    <td><input name="countryname" id="CountryID" size="40" maxlength="100"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="Phone">Phone Number:</label></td>
+                                    <td><input name="phone" id="Phone" size="40" maxlength="100" onblur="mask(this)"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="Fax">Fax Number:</label></td>
+                                    <td><input name="fax" id="Fax" size="40" maxlength="100" onblur="mask(this)"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" bgcolor="#eee"><h3>Relationship:</h3></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">My Company is the: (Prime or Sub)</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="radio" name="company" value="Prime">
+                                        Prime <br>
+                                        <input type="radio" name="company" value="Sub">
+                                        Sub
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">I am reporting on: (Prime, Sub, Other)</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="radio" name="rcompany" value="Prime">
+                                        Prime <br>
+                                        <input type="radio" name="rcompany" value="Sub">
+                                        Sub <br>
+                                        <input type="radio" name="rcompany" value="Other">
+                                        Other
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <label for="Other">If other, please specify:</label>
+                                        <input name="other" id="Other" size="40" maxlength="50">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" bgcolor="#eee"><h3>Contract Information:</h3></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="ContractNo">Contract No:</label></td>
+                                    <td><input name="contractno" id="ContractNo" size="40" maxlength="100"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="ContractOfficer">Contract Officer Name:</label></td>
+                                    <td><input name="contractofficer" id="ContractOfficer" size="40" maxlength="100"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="Officeremail">Contract Officer Email:</label></td>
+                                    <td><input name="officeremail" id="Officeremail" size="40" maxlength="100" onblur="validate_email(Officeremail,'Contract Officer email is not a valid e-mail address!')"></td>
+                                </tr>
+                                <input type="hidden" name="center">
+                                <tr>
+                                    <td colspan="2" bgcolor="#eee"><h3>Incident</h3></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="LossAmount">Dollar Amount of Loss:</label></td>
+                                    <td><input name="lossamount" id="LossAmount" size="40" maxlength="100"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="LossDescription">Loss Description:</label></td>
+                                    <td><textarea name="lossdescription" id="LossDescription" rows="2" cols="30" wrap="PHYSICAL">Enter text here.</textarea></td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><label for="IncidentDate">Incident Date:</label></td>
+                                    <td><input name="incidentdate" id="IncidentDate" size="40" maxlength="100"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Which of the following best describes the reason for reporting this matter (check all that apply):</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="checkbox" name="civil" value="civil">
+                                        Possible violation of civil False Claims Act <br>
+                                        <input type="checkbox" name="federal" value="federal">
+                                        Possible violation of Federal criminal law <br>
+                                    </td>
+                                </tr>
+                                <input type="hidden" name="duration">
+                                <input type="hidden" name="property">
+                                <input type="hidden" name="monetary">
+                                <input type="hidden" name="multiple">
+                                <input type="hidden" name="security">
+                                <input type="hidden" name="safety">
+                                <input type="hidden" name="PII">
+                                <input type="hidden" name="counsel">
+                                <tr>
+                                    <td colspan="2"><label for="Comments"><h3>Comments</h3></label></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <label>
+                                            <p> Please provide a complete description of the facts and circumstances surrounding the reported incident, including names of individuals involved, dates, locations, how the matter was discovered, potential witnesses and their involvement, estimated monetary loss to the United States, and any corrective action taken by the company.</p>
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><textarea name="details" id="details" rows="10" cols="60" wrap="PHYSICAL">Enter text here.</textarea></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" bgcolor="#eee"><h3>Note:</h3></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Submission of willful false statement may violate <a href="http://www.justice.gov/usao/eousa/foia_reading_room/usam/title9/crm00902.htm" target="_blank">18 USC 1001</a>.</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <label for="Name">NAME:</label>
+                                        <input name="name" id="Name" size="50" maxlength="100">  <p>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <!--- CAPTCHA Added 1/01/15   --->
+                                    <td>
+                                        <label>
+                                            <div style="float:left;">
+                                                <b>Please check the box below:</b>
+                                                <div class="g-recaptcha" id="rcaptcha" data-sitekey="6LerZxQTAAAAACf0ZQjsgrKA-pF3aYHIHWK9gtgT" onclick="document.getElementById('captcha').innerHTML='';">
+                                                </div>&nbsp;<span id="captcha" style="margin-left:90px;color:red"></span>
+                                            </div>
+                                        </label>
+
+                                    </td>
+                                    <!--- CAPTCHA Added 1/01/15   --->
+                                </tr>
+
+
+                                <tr>
+                                    <td colspan="2" align="center" style="padding:30px;"><input type="submit" style="width:200px;" value="Submit"></td>
+                                </tr>
+                            </table>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- #EndEditable -->
+<!-- DO NOT MODIFY PAGE FROM TEMPLATE MARKER DOWNWARD -->
+
+    <footer id="footerInternal" class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-md-4 col-sm-2 contentSpan footerAudits">
+                    <p>Audits</p>
+                    <ul>
+                        <li><a href="/oa/projects.html">Active Projects</a></li>
+                        <li><a href="/oa/reports.html">Issued Reports</a></li>
+                        <li><a href="/oa/recovery.html">Recovery Act</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-2 contentSpan footerInvestigations">
+                    <p>Investigations</p>
+                    <ul>
+                        <li><a href="/oi/about.html">About</a></li>
+                        <li><a href="/oi/reports.html">Reports</a></li>
+                        <li><a href="/oi/press.html">Press Releases</a></li>
+                        <li><a href="/oi/offices.html">Field Offices</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-2 contentSpan footerAboutUs">
+                    <p>About Us</p>
+                    <ul>
+                        <li><a href="/org/bio/ig.html" target="_new">Inspector General</a></li>
+                        <li><a href="/org/mission.html">Mission</a></li>
+                        <li><a href="/org/about.html">OIG Personnel</a></li>
+                        <li><a href="/org/chart.html">NASA OIG Organization</a></li>
+                        <li><a href="/org/offices.html">OIG Field Offices</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-2 contentSpan footerRecruitment">
+                    <p>Recruitment</p>
+                    <ul>
+                        <li><a href="/omp/hr/info.html">General Information</a></li>
+                        <li><a href="/omp/hr/current.html">Current Vacancies</a></li>
+                        <li><a href="/omp/hr/apply.html">How to Apply</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-4 col-xm-12 contentSpan footerOversightAreas">
+                    <p>Oversight Areas</p>
+                    <ul>
+                        <li><a href="/oa/space.html">Space Operations</a></li>
+                        <li><a href="/oa/science.html">Science &amp; Aeronautics</a></li>
+                        <li><a href="/oa/technology.html">Information Technology</a></li>
+                        <li><a href="/oa/financial.html">Financial Management</a></li>
+                        <li><a href="/oa/support.html">Mission Support</a></li>
+                        <li><a href="/oa/operations.html">Audit Operations and<br />&nbsp;&nbsp;&nbsp;Quality Assurance</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xm-12 contentSpan footerContactNASAOIG">
+                    <p>Contact NASA OIG</p>
+                    <ul>
+                        <li>
+                            <a href="/org/contact.html">NASA OIG</a><br />
+                            <span class="smallText">Address, phone numbers, and e-mail</span>
+                        </li>
+                        <li>
+                            <a href="/foia/index.html">FOIA</a><br />
+                            <span class="smallText">Freedom of Information Act requests</span>
+                        </li>
+                        <li>
+                            <a href="/oa/mandatory.html">
+                                Mandatory FAR<br />
+                                Contractor Disclosure
+                            </a><br />
+                            <span class="smallText">Report violations of the civil False Claims Act or a violation of Federal criminal law</span>
+                        </li>
+                        <li>
+                            <a href="/whistleblower.html" 
+                               style="background-color:red;color:whitesmoke;padding:1px;margin-top:5px; margin-bottom:5px;display:block;">
+                                Whistleblower Protection Coordinator</a>
+                            <div class="smallText">Information about Federal Whistleblower Protections</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xm-12 contentSpan footerInternalEmail">
+                    <ul>
+                        <li>Curator: <a href="mailto:HQ-OIG-IT-Help@mail.nasa.gov?subject=NASA OIG Website&cc=james.c.akers@nasa.gov;Chris.Han@nasa.gov">James Akers</a></li>
+                        <li>NASA Official: <a href="mailto:HQ-OIG-IT-Help@mail.nasa.gov?subject=NASA OIG Website&cc=james.c.akers@nasa.gov;Chris.Han@nasa.gov">Chris Han</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <script language="Javascript">
+                                document.write("Last Updated: " + document.lastModified + "");
+                            </script>
+                        </li>
+                        <li>Last Reviewed: 03/20/2018</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+ 
+
+    <footer id="footerGovt" class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-1"> <a href="https://www.nasa.gov"><img src="/images/logo-sm-nasa.png" width="58" height="48" alt="NASA logo"></a></div>
+                <div class="col-xs-2"> <a href="https://www.usa.gov"><img src="/images/logo-sm-usagov.png" width="99" height="33" alt="USA.gov"></a></div>
+                <div class="col-xs-3">
+                    <a href="https://www.ignet.gov" target="_blank"><img src="/images/logo-sm-ignet.png"></a>
+                    <!--Council of the Inspectors General on Integrity & Efficiency-->
+                </div>
+                <div class="col-xs-2"> <a href="https://www.oversight.gov" target="_blank"><img src="/images/logo-sm-oversight.png"></a> </div>
+                <div class="col-xs-4">
+                    <ul>
+                        <li><a href="/disclaimer.html">&#9656; OIG Disclaimer</a></li>
+                        <li><a href="/foia/index.html">&#9656; Freedom of Information Act</a></li>
+                        <li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">&#9656; NASA Privacy, Security, Notices</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- #EndTemplate --></html>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <updated>2014-02-26T12:00:00Z</updated>
+    <title>NASA OIG - Special Review</title>
+    <link href="https://oig.nasa.gov" />
+    <link rel="self" href="https://oig.nasa.gov/xml/oig_reports_specialReview.atom" />
+    <author><name>NASA Office of Inspector General</name></author>
+    <id>https://oig.nasa.gov/xml/oig_reports_specialReview.atom</id>
+
+        <entry>
+            <id>https://oig.nasa.gov/docs/Ames_ITAR.pdf</id>
+            <updated>2014-02-26T12:00:00Z</updated>
+            <title>Summary: Review of ITAR and Foreign National Access Issues at Ames Research Center</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/Ames_ITAR.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/Ames_ITAR.pdf" type="application/pdf" length="434680" title="Special Review" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/NASA_H211.pdf</id>
+            <updated>2013-12-11T12:00:00Z</updated>
+            <title>NASA&#39;s Lease of Hangar Space and Sale of Aviation Fuel to H211</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/NASA_H211.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/NASA_H211.pdf" type="application/pdf" length="340478" title="Special Review" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/OIG_Investigative_Summary.pdf</id>
+            <updated>2013-10-22T12:00:00Z</updated>
+            <title>Review of Chinese National&#39;s Access to NASA&#39;s Langley Research Center</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/OIG_Investigative_Summary.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/OIG_Investigative_Summary.pdf" type="application/pdf" length="534355" title="Special Review" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/SpecialReview(12-17-12).pdf</id>
+            <updated>2012-12-17T12:00:00Z</updated>
+            <title>NASA&#39;s Efforts to Encrypt its Laptop Computers</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/SpecialReview(12-17-12).pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/SpecialReview(12-17-12).pdf" type="application/pdf" length="4255168" title="Special Review" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/SpecialReview(12-5-12).pdf</id>
+            <updated>2012-12-05T12:00:00Z</updated>
+            <title>NASA&#39;s Strategic Direction and the Need for a National Consensus</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/SpecialReview(12-5-12).pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/SpecialReview(12-5-12).pdf" type="application/pdf" length="2433785" title="Special Review" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/SpecialReport(8-2-12).pdf</id>
+            <updated>2012-08-02T12:00:00Z</updated>
+            <title>Review of Actions by Members of a NASA Advisory Committee</title>
+            <summary>NASA Inspector General (IG) Paul K. Martin today released a report that summarizes an investigation into allegations that members of a NASA-supervised advisory committee violated Federal conflict of interest laws. In the report, the IG recommended that NASA adopt additional procedures to help advisory committee members identify potential conflicts of interest.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/SpecialReport(8-2-12).pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/SpecialReport(8-2-12).pdf" type="application/pdf" length="272005" title="Special Review" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/IG Review proposal text_Final.pdf</id>
+            <updated>2012-01-19T12:00:00Z</updated>
+            <title>Independent Assessment of NASA&#39;s Strategic Direction and Management</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/IG Review proposal text_Final.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/IG Review proposal text_Final.pdf" type="application/pdf" length="90939" title="Special Review" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/Review_NASAs_Selection_Display_Locations.pdf</id>
+            <updated>2011-08-25T12:00:00Z</updated>
+            <title>Review of NASA&#39;s Selection of Display Locations for the Space Shuttle Orbiters</title>
+            <summary>NASA Inspector General Paul K. Martin today released a report that examines NASA&#39;s process for choosing permanent display locations for the retired Space Shuttle Orbiters. The review found that although Agency staff made several errors during the evaluation process of prospective Orbiter recipients, NASA complied with federal law and was not improperly influenced by political considerations when it chose the Smithsonian and sites in Los Angeles, New York City, and at the Kennedy Space Center in Florida.</summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/Review_NASAs_Selection_Display_Locations.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/Review_NASAs_Selection_Display_Locations.pdf" type="application/pdf" length="1025473" title="Special Review" />
+        </entry>
+        <entry>
+            <id>https://oig.nasa.gov/docs/Rock.pdf</id>
+            <updated>2011-01-13T12:00:00Z</updated>
+            <title>Use of Constellation Program Funds (Committee on Commerce, Science, and Transportation)</title>
+            <summary></summary>
+            <link rel="alternate" href="https://oig.nasa.gov/docs/Rock.pdf" />
+            <link rel="enclosure" href="https://oig.nasa.gov/docs/Rock.pdf" type="application/pdf" length="72934" title="Special Review" />
+        </entry>
+</feed>
